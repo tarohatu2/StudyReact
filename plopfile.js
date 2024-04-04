@@ -1,7 +1,8 @@
+const templatePrefix = 'plop-templates'
 export default function (plop) {
     // create your generators here
-    plop.setGenerator('basics', {
-        description: 'this is a skeleton plopfile',
+    plop.setGenerator('component', {
+        description: 'create new component',
         prompts: [{
             type: 'input',
             name: 'name',
@@ -11,23 +12,54 @@ export default function (plop) {
             {
                 type: 'add',
                 path: 'src/components/{{pascalCase name}}/{{pascalCase name}}.jsx',
-                templateFile: 'plop-templates/components/Component.jsx.hbs'
+                templateFile: templatePrefix + '/components/Component.jsx.hbs'
             },
             {
                 type: 'add',
                 path: 'src/components/{{pascalCase name}}/index.jsx',
-                templateFile: 'plop-templates/components/index.jsx.hbs'
+                templateFile: templatePrefix + '/components/index.jsx.hbs'
             },
             {
                 type: 'add',
                 path: 'src/components/{{pascalCase name}}/{{pascalCase name}}.module.css',
-                templateFile: 'plop-templates/components/Component.module.css.hbs'
+                templateFile: templatePrefix + '/components/Component.module.css.hbs'
             },
             {
                 type: 'add',
                 path: 'src/components/{{pascalCase name}}/{{pascalCase name}}.stories.js',
-                templateFile: 'plop-templates/components/Component.stories.js.hbs'
+                templateFile: templatePrefix + '/components/Component.stories.js.hbs'
             },
         ]
     });
+
+    plop.setGenerator('addRecoilState', {
+        description: 'add recoilState files',
+        prompts: [{
+            type: 'input',
+            name: 'name',
+            message: 'state name please'
+        }],
+        actions: [
+            {
+                type: 'add',
+                path: 'src/recoil/{{lowerCase name}}/index.js',
+                templateFile: templatePrefix + '/recoil/index.js.hbs'
+            },
+            {
+                type: 'add',
+                path: 'src/recoil/{{lowerCase name}}/{{pascalCase name}}State.js',
+                templateFile: templatePrefix + '/recoil/state.js.hbs'
+            },
+            {
+                type: 'add',
+                path: 'src/recoil/{{lowerCase name}}/{{pascalCase name}}StateModule.js',
+                templateFile: templatePrefix + '/recoil/stateModule.js.hbs'
+            },
+            {
+                type: 'append',
+                path: 'src/recoil/index.js',
+                template: "export * from './{{lowerCase name}}';",
+              },
+        ]
+    })
 };
