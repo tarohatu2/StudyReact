@@ -1,15 +1,15 @@
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #dddddd;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #dddddd;
 }
 
 .contents {
-    min-height: 2.4rem;
-    font-size: 1.6rem;
-    padding: 0.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: 2.4rem;
+  font-size: 1.6rem;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
