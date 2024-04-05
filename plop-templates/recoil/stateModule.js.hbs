@@ -1,6 +1,6 @@
-import { setRecoil } from 'recoil-nexus' import {
-{{camelCase name}}State } from './{{pascalCase name}}State' export const
-{{camelCase name}}StateModule = { increment: () => setRecoil({{camelCase
-  name
-}}State, (pre) => pre + 1), decrement: () => setRecoil({{camelCase name}}State,
-(pre => pre - 1)) }
+import { setRecoil } from 'recoil-nexus' 
+import {{{camelCase name}}State } from './{{pascalCase name}}State'
+export const {{camelCase name}}StateModule = {
+    increment: () => setRecoil({{camelCase name}}State, (pre) => pre + 1), 
+    decrement: () => setRecoil({{camelCase name}}State, (pre => pre - 1))
+}
