@@ -7,7 +7,7 @@ export const AppHeader = (props) => {
         <header>
             <div className={style.hwrapper}>
                 <div className={style.header}>
-                    <h2>{props.title}</h2>
+                    <h1 className={style.title}>{props.title}</h1>
                 </div>
             </div>
         </header>
