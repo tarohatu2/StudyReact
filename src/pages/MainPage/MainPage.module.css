@@ -1,0 +1,5 @@
+.container {
+  width: calc(100vw-20rem);
+  height: 120vh;
+  overflow: scroll;
+}

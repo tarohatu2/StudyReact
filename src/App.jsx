@@ -2,6 +2,7 @@ import { React } from "react";
 import style from "./App.module.css";
 import { AppHeader } from "./components/AppHeader";
 import { AppFooter } from "./components/AppFooter";
+import { Sidebar } from './components/Sidebar';
 import { Outlet } from 'react-router-dom';
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
           <Outlet />
         </main>
         <aside className={style.sidebar}>
-          aaaaaaa
+          <Sidebar />
         </aside>
       </div>
       <AppFooter />

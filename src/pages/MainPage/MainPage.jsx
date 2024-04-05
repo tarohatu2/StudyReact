@@ -5,7 +5,7 @@ from './MainPage.module.css'
 
 export const MainPage = (props) => { 
   return (
-    <div>main</div>
+    <div className={style.container}>main</div>
   )
 }
 
