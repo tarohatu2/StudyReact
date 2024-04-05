@@ -1,3 +1,22 @@
 .container {
   width: 100vw;
+  height: inherit;
+}
+
+.mainarea {
+  display: flex;
+  flex-direction: row;
+  height: inherit;
+  z-index: 1;
+}
+
+.main {
+  order: 1;
+}
+
+.sidebar {
+  order: 0;
+  width: 20rem;
+  height: calc(100vh - (10rem + 2.4rem));
+  background-color: aliceblue;
 }

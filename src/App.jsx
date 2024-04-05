@@ -7,10 +7,14 @@ function App() {
   return (
     <div className={style.container}>
       <AppHeader title="ヘッダー" />
-      <main>
-        <Outlet />
-      </main>
-      <aside></aside>
+      <div className={style.mainarea}>
+        <main className={style.main}>
+          <Outlet />
+        </main>
+        <aside className={style.sidebar}>
+          aaaaaaa
+        </aside>
+      </div>
       <AppFooter />
     </div>
   );
