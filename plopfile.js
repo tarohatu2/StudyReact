@@ -34,6 +34,34 @@ export default function (plop) {
     ],
   });
 
+  plop.setGenerator("page", {
+    description: "create new page",
+    prompts: [
+      {
+        type: "input",
+        name: "name",
+        message: "page name please",
+      },
+    ],
+    actions: [
+      {
+        type: "add",
+        path: "src/pages/{{pascalCase name}}/{{pascalCase name}}.jsx",
+        templateFile: templatePrefix + "/components/Component.jsx.hbs",
+      },
+      {
+        type: "add",
+        path: "src/pages/{{pascalCase name}}/index.jsx",
+        templateFile: templatePrefix + "/components/index.jsx.hbs",
+      },
+      {
+        type: "add",
+        path: "src/pages/{{pascalCase name}}/{{pascalCase name}}.module.css",
+        templateFile: templatePrefix + "/components/Component.module.css.hbs",
+      },
+    ],
+  });
+
   plop.setGenerator("addRecoilState", {
     description: "add recoilState files",
     prompts: [
