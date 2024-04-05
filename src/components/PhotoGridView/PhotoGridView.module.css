@@ -1,0 +1,27 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gridItem {
+  height: 8rem;
+  width: 8rem;
+  background-color: aliceblue;
+}
+
+.image {
+    height: 8rem;
+    width: 8rem;
+}
+
+@media (max-width: 768px) { 
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
