@@ -8,6 +8,12 @@ export const AppHeader = (props) => {
             <div className={style.hwrapper}>
                 <div className={style.header}>
                     <h1 className={style.title}>{props.title}</h1>
+                    <nav>
+                        <ul>
+                            <li>設定</li>
+                            <li>ログアウト</li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </header>
