@@ -15,7 +15,7 @@ export const AppHeader = (props) => {
 		  <nav>
 			<ul>
 			  <li><Link to='settings'>設定</Link></li>
-			  <li>ログアウト</li>
+			  <li><Link to='/login'>ログアウト</Link></li>
 			</ul>
 		  </nav>
 		</div>

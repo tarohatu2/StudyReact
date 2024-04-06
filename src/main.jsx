@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import { MainPage } from './pages/MainPage'
 import { SettingPage } from './pages/SettingPage'
+import { LoginPage } from './pages/LoginPage'
 import "./index.css";
 import {
   createBrowserRouter,
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       }
     ]
   },
+  {
+    path: '/login',
+    element: <LoginPage />
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
