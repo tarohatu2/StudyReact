@@ -2,6 +2,8 @@ import { React } from "react";
 import PropTypes from "prop-types";
 import style from "./AppHeader.module.css";
 import { Link } from "react-router-dom";
+import { MdOutlineSettings, MdLogout } from "react-icons/md";
+
 export const AppHeader = (props) => {
   return (
 	<header>
@@ -14,8 +16,8 @@ export const AppHeader = (props) => {
 		  </h1>
 		  <nav>
 			<ul>
-			  <li><Link to='settings'>設定</Link></li>
-			  <li><Link to='/login'>ログアウト</Link></li>
+			  <li><Link to='settings' className={style.link}><MdOutlineSettings />設定</Link></li>
+			  <li><Link to='/login' className={style.link}><MdLogout />ログアウト</Link></li>
 			</ul>
 		  </nav>
 		</div>

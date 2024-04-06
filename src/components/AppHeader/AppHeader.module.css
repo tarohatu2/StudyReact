@@ -21,3 +21,11 @@ ul li {
   display: inline-block;
   margin-right: 1.2rem;
 }
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 0 0.5rem;
+  margin-right: 1.6rem;
+  font-size: 1.6rem;
+}
