@@ -2,7 +2,7 @@ import { React } from "react";
 import PropTypes from "prop-types";
 import style from "./AppHeader.module.css";
 import { Link } from "react-router-dom";
-import { MdOutlineSettings, MdLogout, MdOutlineFormatListBulleted } from "react-icons/md";
+import { MdOutlineSettings, MdLogout, MdOutlineFormatListBulleted, MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
 import { IconButton } from '../IconButton'
 export const AppHeader = (props) => {
   return (
@@ -18,6 +18,12 @@ export const AppHeader = (props) => {
 							{props.title}
 						</Link>
 					</h1>
+					<IconButton>
+						<MdArrowBackIos />
+					</IconButton>
+					<IconButton>
+						<MdArrowForwardIos />
+					</IconButton>
 				</div>
 				<nav>
 					<ul>

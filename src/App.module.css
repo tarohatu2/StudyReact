@@ -20,5 +20,5 @@
 .sidebar {
   width: 20rem;
   order: 0;
-  height: calc(100vh - (10rem + 2.4rem));
+  height: calc(100vh - (8.2rem + 2.4rem));
 }
