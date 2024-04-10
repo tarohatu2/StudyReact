@@ -3,18 +3,16 @@ import PropTypes from "prop-types";
 import style from "./AppHeader.module.css";
 import { Link } from "react-router-dom";
 import { MdOutlineSettings, MdLogout, MdOutlineFormatListBulleted } from "react-icons/md";
-
+import { IconButton } from '../IconButton'
 export const AppHeader = (props) => {
   return (
 	<header>
 	  <div className={style.hwrapper}>
 			<div className={style.header}>
 				<div className={style.leftcontainer}>
-					<button className={style.listiconbutton}>
-						<MdOutlineFormatListBulleted 
-							className={style.listicon}
-						/>
-					</button>
+					<IconButton>
+						<MdOutlineFormatListBulleted />
+					</IconButton>
 					<h1 className={style.title}>
 						<Link to='/'>
 							{props.title}

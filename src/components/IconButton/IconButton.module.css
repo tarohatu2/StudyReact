@@ -1,0 +1,19 @@
+.listiconbutton {
+  padding: .5rem;
+  margin-left: 1.6rem;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2rem;
+}
+
+.listiconbutton:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.listicon {
+  font-size: 2.4rem;
+  color: #595959;
+}
