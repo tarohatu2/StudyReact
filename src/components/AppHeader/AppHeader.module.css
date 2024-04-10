@@ -12,8 +12,40 @@
   padding: 1.6rem 2.4rem;
 }
 
-.title {
+.leftcontainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.listiconbutton {
+  padding: .5rem;
+  margin-left: 1.6rem;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2rem;
+}
+
+.listiconbutton:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.listicon {
   font-size: 2.4rem;
+  color: #595959;
+}
+
+
+.title {
+  margin-left: 1.6rem;
+  font-size: 2.4rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul li {
