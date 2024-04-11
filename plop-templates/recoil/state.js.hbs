@@ -1,11 +1,11 @@
 import { atom, selector } from 'recoil'
 
 export const {{camelCase name}}State = atom({
-    key: '{{camelCase name}}',
-    default: 0
+  key: '{{camelCase name}}',
+  default: 0
 });
   
 export const {{camelCase name}}StrState = selector({
-    key: '{{camelCase name}}Str',
-    get: ({get}) => `{{camelCase name}}State: ${get({{camelCase name}}State)}`
+  key: '{{camelCase name}}Str',
+  get: ({get}) => `{{camelCase name}}State: ${get({{camelCase name}}State)}`
 });

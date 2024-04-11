@@ -1,7 +1,5 @@
 import { React } from 'react' 
-import PropTypes from 'prop-types'
-import style from './SettingPage.module.css'
-export const SettingPage = (props) => { 
+export const SettingPage = () => { 
   return (
     <div>setting</div>
   )
