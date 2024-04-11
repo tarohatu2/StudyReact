@@ -4,7 +4,7 @@ import style from "./AppHeader.module.css";
 import { Link } from "react-router-dom";
 import { MdOutlineSettings, MdLogout, MdOutlineFormatListBulleted, MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
 import { IconButton } from '../IconButton'
-export const AppHeader = (props) => {
+export const AppHeader = ({ title, forward, back}) => {
   return (
 	<header>
 	  <div className={style.hwrapper}>
@@ -15,13 +15,13 @@ export const AppHeader = (props) => {
 					</IconButton>
 					<h1 className={style.title}>
 						<Link to='/'>
-							{props.title}
+							{title}
 						</Link>
 					</h1>
-					<IconButton>
+					<IconButton onClick={back}>
 						<MdArrowBackIos />
 					</IconButton>
-					<IconButton>
+					<IconButton onClick={forward}>
 						<MdArrowForwardIos />
 					</IconButton>
 				</div>
@@ -39,4 +39,6 @@ export const AppHeader = (props) => {
 
 AppHeader.propTypes = {
   title: PropTypes.string.isRequired,
+	forward: PropTypes.func,
+	back: PropTypes.func,
 };
