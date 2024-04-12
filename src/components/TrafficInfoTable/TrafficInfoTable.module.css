@@ -1,0 +1,14 @@
+table {
+  border-collapse: collapse; /* セルの境界線を重ねる */
+  width: 100%; /* テーブルを親要素の幅いっぱいに広げる */
+}
+
+th, td {
+  border: 1px solid #ccc; /* セルに境界線を追加 */
+  padding: 10px; /* セル内の余白を設定 */
+  text-align: center; /* セル内のテキストを中央揃えにする */
+}
+
+th {
+  background-color: #eee; /* 見出し行の背景色を変更 */
+}

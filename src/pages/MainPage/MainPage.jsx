@@ -6,9 +6,13 @@ import { pagingState  } from '../../recoil/paging'
 import { trafficAPIRequest } from '../../recoil/traffic'
 import { useRecoilState, useRecoilValue } from "recoil"
 
+import { TrafficInfoTable } from '../../components/TrafficInfoTable'
+
 const TrafficInfo = () => {
   const traffic = useRecoilValue(trafficAPIRequest)
-  return <div>{JSON.stringify(traffic.body)}</div>
+  const area = traffic.body.area04
+  const info = area.trafficInfo.jam?.info ?? []
+  return <TrafficInfoTable info={info} />
 }
 
 export const MainPage = (props) => { 
