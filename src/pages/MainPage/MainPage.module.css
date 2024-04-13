@@ -3,3 +3,12 @@
   height: 120vh;
   overflow: scroll;
 }
+
+.trafficInfoContainer {
+  display: flex;
+  gap: 0 2.4rem;
+}
+
+.trafficInfoItem {
+  flex-direction: row;
+}

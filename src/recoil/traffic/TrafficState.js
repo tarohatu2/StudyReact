@@ -48,3 +48,20 @@ export const trafficJamInfo = selector({
         return result
     }
 })
+
+export const otherTrafficInfo = selector({
+    key: 'otherTrafficInfo',
+    get: ({ get }) => {
+        const areaStr = get(trafficAreaState)
+        const trafficInfo = get(trafficAPIRequest)
+        const areaInfo = trafficInfo.body[areaStr]
+        if (!areaInfo || !areaInfo.otherTrafficInfo.laneRestriction) { return [] }
+        let result = []
+        areaInfo.otherTrafficInfo.laneRestriction.forEach((restriction) => {
+            restriction.info.forEach((value) => {
+                result.push(value)
+            })
+        })
+        return result
+    }
+})
