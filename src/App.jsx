@@ -7,7 +7,7 @@ import { Outlet } from 'react-router-dom';
 import { RecoilRoot } from "recoil";
 import RecoilNexus from "recoil-nexus";
 
-import { pagingStateModule } from './recoil/paging'
+import { trafficStateModule } from './recoil/traffic'
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
       <div className={style.container}>
         <AppHeader 
           title="ヘッダー"
-          forward={pagingStateModule.increment}
-          back={pagingStateModule.decrement}
+          forward={trafficStateModule.increment}
+          back={trafficStateModule.decrement}
         />
         <div className={style.mainarea}>
           <main className={style.main}>

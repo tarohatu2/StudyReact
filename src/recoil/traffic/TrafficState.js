@@ -4,8 +4,13 @@ import axios from 'axios'
 
 export const trafficState = atom({
     key: 'traffic',
-    default: 0
+    default: 1
 });
+
+export const trafficAreaState = selector({
+    key: 'trafficArea',
+    get: ({ get }) => `area${('00' + get(trafficState)).slice(-2)}`
+})
   
 const trafficQueryState = selector({
     key: 'trafficQuery',
@@ -27,3 +32,19 @@ export const trafficAPIRequest = selector({
     }
 })
 
+export const trafficJamInfo = selector({
+    key: 'trafficJamInfo',
+    get: ({ get }) => {
+        const areaStr = get(trafficAreaState)
+        const trafficInfo = get(trafficAPIRequest)
+        const areaInfo = trafficInfo.body[areaStr]
+        if (!areaInfo || !areaInfo.trafficInfo.jam) { return [] }
+        let result = []
+        areaInfo.trafficInfo.jam.forEach((j) => {
+            j.info.forEach((value) => {
+                result.push(value)
+            })
+        })
+        return result
+    }
+})
