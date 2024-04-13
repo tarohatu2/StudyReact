@@ -2,7 +2,7 @@ import { React } from 'react'
 import PropTypes from 'prop-types'
 import style from './TrafficInfoTable.module.css'
 
-export const TrafficInfoTable = ({ info }) => { 
+export const TrafficInfoTable = ({ info, caption }) => { 
   const rows = info.map((data, index) => {
     const { distance, direction, reason, title } = data
     return (
@@ -16,6 +16,7 @@ export const TrafficInfoTable = ({ info }) => {
   })
   return (
     <table>
+      <caption>{caption}</caption>
       <tr>
         <th>方面</th>
         <th>IC・JCT</th>
@@ -28,5 +29,6 @@ export const TrafficInfoTable = ({ info }) => {
 }
 
 TrafficInfoTable.propTypes = {
-  info: PropTypes.array.isRequired
+  info: PropTypes.array.isRequired,
+  caption: PropTypes.string.isRequired
 }

@@ -12,3 +12,8 @@ th, td {
 th {
   background-color: #eee; /* 見出し行の背景色を変更 */
 }
+
+caption {
+  font-size: 1.6rem;
+  text-align: left;
+}

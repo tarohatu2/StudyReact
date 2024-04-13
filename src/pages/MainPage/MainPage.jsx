@@ -9,12 +9,12 @@ import { TrafficInfoTable } from '../../components/TrafficInfoTable'
 
 const TrafficInfo = () => {
   const info = useRecoilValue(trafficJamInfo)
-  return <TrafficInfoTable info={info} />
+  return <TrafficInfoTable caption='渋滞情報' info={info} />
 }
 
 const OtherTrafficInfo = () => {
   const info = useRecoilValue(otherTrafficInfo)
-  return <TrafficInfoTable info={info} />
+  return <TrafficInfoTable caption='その他規制' info={info} />
 }
 
 export const MainPage = (props) => { 
