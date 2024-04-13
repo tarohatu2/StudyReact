@@ -2,10 +2,13 @@ import { React, Suspense } from 'react'
 import PropTypes from 'prop-types' 
 import style from './MainPage.module.css' 
 
-import { trafficAreaState, trafficJamInfo, otherTrafficInfo, areaName } from '../../recoil/traffic'
-import { useRecoilState, useRecoilValue } from "recoil"
+import { trafficJamInfo, otherTrafficInfo, areaName } from '../../recoil/traffic'
+import { useRecoilValue } from "recoil"
+import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
+import { IconButton } from '../../components/IconButton'
 
 import { TrafficInfoTable } from '../../components/TrafficInfoTable'
+import { trafficStateModule } from '../../recoil/traffic'
 
 const TrafficInfo = () => {
   const info = useRecoilValue(trafficJamInfo)
@@ -17,12 +20,27 @@ const OtherTrafficInfo = () => {
   return <TrafficInfoTable caption='その他規制' info={info} />
 }
 
-export const MainPage = (props) => { 
+const AreaName = () => {
   const area = useRecoilValue(areaName)
+  return (
+    <div className={style.areaNameContainer}>
+      <IconButton onClick={trafficStateModule.decrement}>
+        <MdArrowBackIos />
+      </IconButton>
+      <h2>{area}</h2>
+      <IconButton onClick={trafficStateModule.increment}>
+				<MdArrowForwardIos />
+			</IconButton>
+    </div>
+  )
+
+}
+
+export const MainPage = (props) => { 
   return (
     <div className={style.container}>
       <Suspense fallback="">
-        <h2>{area}</h2>
+        <AreaName />
       </Suspense>
       <Suspense fallback="検索中...">
         <div className={style.trafficInfoContainer}>

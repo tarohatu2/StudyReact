@@ -12,3 +12,15 @@
 .trafficInfoItem {
   flex-direction: row;
 }
+
+.areaNameContainer {
+  display: flex;
+  align-items: center;
+  gap: 0 1rem
+}
+
+h2 {
+  max-width: 12rem;
+  min-width: 12rem;
+  text-align: center;
+}
