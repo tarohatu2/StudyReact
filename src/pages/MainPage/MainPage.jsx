@@ -2,7 +2,7 @@ import { React, Suspense } from 'react'
 import PropTypes from 'prop-types' 
 import style from './MainPage.module.css' 
 
-import { trafficAreaState, trafficJamInfo, otherTrafficInfo } from '../../recoil/traffic'
+import { trafficAreaState, trafficJamInfo, otherTrafficInfo, areaName } from '../../recoil/traffic'
 import { useRecoilState, useRecoilValue } from "recoil"
 
 import { TrafficInfoTable } from '../../components/TrafficInfoTable'
@@ -18,11 +18,12 @@ const OtherTrafficInfo = () => {
 }
 
 export const MainPage = (props) => { 
-  const [area] = useRecoilState(trafficAreaState)
-
+  const area = useRecoilValue(areaName)
   return (
     <div className={style.container}>
-      {area}
+      <Suspense fallback="">
+        <h2>{area}</h2>
+      </Suspense>
       <Suspense fallback="検索中...">
         <div className={style.trafficInfoContainer}>
           <div className={style.trafficInfoItem}>

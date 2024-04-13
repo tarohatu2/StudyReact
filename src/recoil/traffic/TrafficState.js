@@ -65,3 +65,20 @@ export const otherTrafficInfo = selector({
         return result
     }
 })
+
+export const areaMaster = selector({
+    key: 'areaMaster',
+    get: async ({ get }) => {
+        const result = await axios.get('https://www.c-ihighway.jp/datas/json/trafficCount.json')
+        return result.data
+    }
+})
+
+export const areaName = selector({
+    key: 'areaName',
+    get: ({ get }) => {
+        const areas = get(areaMaster)
+        const areaStr = get(trafficAreaState)
+        return areas[areaStr]?.areaName
+    }
+})
