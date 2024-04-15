@@ -2,7 +2,7 @@ import { React, Suspense } from 'react'
 import PropTypes from 'prop-types' 
 import style from './MainPage.module.css' 
 
-import { trafficJamInfo, otherTrafficInfo, areaName } from '../../recoil/traffic'
+import { trafficJamInfo, otherTrafficInfo, areaName, otherTrafficInfoParams } from '../../recoil/traffic'
 import { useRecoilValue } from "recoil"
 import { ErrorBoundary } from "react-error-boundary";
 import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
@@ -18,6 +18,11 @@ const TrafficInfo = () => {
 
 const OtherTrafficInfo = () => {
   const info = useRecoilValue(otherTrafficInfo)
+  return <TrafficInfoTable caption='その他規制' info={info} />
+}
+
+const OtherTrafficInfoParams = (areaId) => {
+  const info = useRecoilValue(otherTrafficInfoParams('area01'))
   return <TrafficInfoTable caption='その他規制' info={info} />
 }
 
@@ -51,6 +56,9 @@ export const MainPage = (props) => {
             </div>
             <div className={style.trafficInfoItem}>
               <OtherTrafficInfo />
+            </div>
+            <div className={style.trafficInfoItem}>
+              <OtherTrafficInfoParams />
             </div>
           </div>
         </Suspense>

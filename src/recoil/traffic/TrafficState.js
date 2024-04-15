@@ -1,4 +1,4 @@
-import { atom, selector } from 'recoil'
+import { atom, selector, selectorFamily } from 'recoil'
 import { pagingState } from '../paging'
 import axios from 'axios'
 
@@ -55,6 +55,22 @@ export const otherTrafficInfo = selector({
         const areaStr = get(trafficAreaState)
         const trafficInfo = get(trafficAPIRequest)
         const areaInfo = trafficInfo.body[areaStr]
+        if (!areaInfo || !areaInfo.otherTrafficInfo.laneRestriction) { return [] }
+        let result = []
+        areaInfo.otherTrafficInfo.laneRestriction.forEach((restriction) => {
+            restriction.info.forEach((value) => {
+                result.push(value)
+            })
+        })
+        return result
+    }
+})
+
+export const otherTrafficInfoParams = selectorFamily({
+    key: 'otherTrafficInfoParams',
+    get: areaId => ({ get }) => {
+        const trafficInfo = get(trafficAPIRequest)
+        const areaInfo = trafficInfo.body[areaId]
         if (!areaInfo || !areaInfo.otherTrafficInfo.laneRestriction) { return [] }
         let result = []
         areaInfo.otherTrafficInfo.laneRestriction.forEach((restriction) => {
