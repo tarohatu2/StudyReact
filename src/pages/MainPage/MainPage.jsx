@@ -4,6 +4,7 @@ import style from './MainPage.module.css'
 
 import { trafficJamInfo, otherTrafficInfo, areaName } from '../../recoil/traffic'
 import { useRecoilValue } from "recoil"
+import { ErrorBoundary } from "react-error-boundary";
 import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
 import { IconButton } from '../../components/IconButton'
 
@@ -39,19 +40,21 @@ const AreaName = () => {
 export const MainPage = (props) => { 
   return (
     <div className={style.container}>
-      <Suspense fallback="">
-        <AreaName />
-      </Suspense>
-      <Suspense fallback="検索中...">
-        <div className={style.trafficInfoContainer}>
-          <div className={style.trafficInfoItem}>
-            <TrafficInfo />
+      <ErrorBoundary fallback={<div>Something went wrong</div>}>
+        <Suspense fallback="">
+          <AreaName />
+        </Suspense>
+        <Suspense fallback="検索中...">
+          <div className={style.trafficInfoContainer}>
+            <div className={style.trafficInfoItem}>
+              <TrafficInfo />
+            </div>
+            <div className={style.trafficInfoItem}>
+              <OtherTrafficInfo />
+            </div>
           </div>
-          <div className={style.trafficInfoItem}>
-            <OtherTrafficInfo />
-          </div>
-        </div>
-      </Suspense>
+        </Suspense>
+      </ErrorBoundary>
     </div>
   )
 }
