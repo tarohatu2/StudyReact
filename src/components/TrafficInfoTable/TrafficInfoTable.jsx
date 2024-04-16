@@ -6,7 +6,7 @@ export const TrafficInfoTable = ({ info, caption }) => {
   const rows = info.map((data, index) => {
     const { distance, direction, reason, title } = data
     return (
-      <tr id={`jam-${index}`}>
+      <tr key={`${index}`}>
         <td>{direction}</td>
         <td>{title}</td>
         <td>{reason}</td>
@@ -17,13 +17,17 @@ export const TrafficInfoTable = ({ info, caption }) => {
   return (
     <table>
       <caption>{caption}</caption>
-      <tr>
-        <th>方面</th>
-        <th>IC・JCT</th>
-        <th>事由</th>
-        <th>距離</th>
-      </tr>
-      {rows}
+      <thead>
+        <tr>
+          <th>方面</th>
+          <th>IC・JCT</th>
+          <th>事由</th>
+          <th>距離</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows}
+      </tbody>
     </table>
   )
 }

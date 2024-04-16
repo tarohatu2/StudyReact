@@ -23,7 +23,7 @@ const OtherTrafficInfo = () => {
 
 const OtherTrafficInfoParams = (areaId) => {
   const info = useRecoilValue(otherTrafficInfoParams('area01'))
-  return <TrafficInfoTable caption='その他規制' info={info} />
+  return <TrafficInfoTable caption='その他' info={info} />
 }
 
 const AreaName = () => {
