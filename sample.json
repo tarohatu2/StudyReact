@@ -1,0 +1,4121 @@
+{
+  "area01": {
+      "otherTrafficInfo": {
+          "laneRestriction": [
+              {
+                  "roadName": "道央道",
+                  "info": [
+                      {
+                          "direction": "上り：函館方面",
+                          "title": "北郷IC→大谷地IC",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "上り：函館方面",
+                          "title": "登別室蘭IC付近",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "title": "室蘭IC付近",
+                          "direction": "下り：名寄方面",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "direction": "下り：名寄方面",
+                          "title": "登別室蘭IC付近→登別室蘭IC",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "reason": "工事",
+                          "direction": "下り：名寄方面",
+                          "title": "栗沢ﾊﾞｽ停付近→栗沢ﾊﾞｽ停"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "札樽道",
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：札幌方面",
+                          "title": "伏古IC付近→伏古IC",
+                          "reason": "工事"
+                      }
+                  ]
+              }
+          ],
+          "underRegulation": [
+              {
+                  "info": [
+                      {
+                          "direction": "上り：函館方面",
+                          "title": "大谷地IC付近",
+                          "reason": "工事",
+                          "detail": "規制中"
+                      }
+                  ],
+                  "roadName": "道央道"
+              },
+              {
+                  "info": [
+                      {
+                          "direction": "下り：札幌方面",
+                          "reason": "工事",
+                          "title": "札幌北第二IC→伏古IC",
+                          "detail": "規制中"
+                      }
+                  ],
+                  "roadName": "札樽道"
+              }
+          ]
+      },
+      "trafficInfo": {
+          "closed": [
+              {
+                  "roadName": "道央道",
+                  "info": [
+                      {
+                          "serialID": "178159",
+                          "direction": "上り：函館方面",
+                          "reason": "事故",
+                          "title": "国縫IC→八雲IC",
+                          "lineID": "10010015",
+                          "coordinate": [
+                              {
+                                  "endX": 7408,
+                                  "endY": 2843,
+                                  "startY": 2841,
+                                  "startX": 7410
+                              },
+                              {
+                                  "endY": 2887,
+                                  "endX": 7365,
+                                  "startX": 7409,
+                                  "startY": 2843
+                              },
+                              {
+                                  "startX": 7365,
+                                  "startY": 2887,
+                                  "endY": 2906,
+                                  "endX": 7365
+                              },
+                              {
+                                  "startY": 2904,
+                                  "startX": 7365,
+                                  "endX": 7365,
+                                  "endY": 2907
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      },
+      "trafficCount": {
+          "snowPlow": 0,
+          "accident": 0,
+          "closed": 1,
+          "snowChain": 0,
+          "oneLane": 0,
+          "snowTires": 0,
+          "antifreeze": 0,
+          "ramp": 0,
+          "jam": 0
+      },
+      "areaCenterY": 2372,
+      "areaCenterX": 7947
+  },
+  "area03": {
+      "trafficCount": {
+          "closed": 0,
+          "snowChain": 0,
+          "snowPlow": 0,
+          "accident": 0,
+          "jam": 0,
+          "antifreeze": 0,
+          "ramp": 0,
+          "snowTires": 0,
+          "oneLane": 0
+      },
+      "areaCenterY": 5913,
+      "areaCenterX": 6118,
+      "otherTrafficInfo": {
+          "laneRestriction": [
+              {
+                  "info": [
+                      {
+                          "reason": "作業",
+                          "direction": "上り：米原方面",
+                          "title": "三条燕IC付近→三条燕IC",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "上り：米原方面",
+                          "title": "三条燕IC付近→三条燕IC",
+                          "detail": "路肩規制"
+                      },
+                      {
+                          "direction": "上り：米原方面",
+                          "title": "小矢部IC付近→高窪ﾄﾝﾈﾙ入口",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "direction": "上り：米原方面",
+                          "reason": "工事",
+                          "title": "清水谷第２ﾄﾝﾈﾙ入口→清水谷第１ﾄﾝﾈﾙ付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "title": "金沢森本IC→金沢東第１IC",
+                          "direction": "上り：米原方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "direction": "上り：米原方面",
+                          "reason": "工事",
+                          "title": "徳光PA・スマートIC付近→能美根上スマートIC",
+                          "detail": "全車線規制"
+                      },
+                      {
+                          "direction": "上り：米原方面",
+                          "reason": "工事",
+                          "title": "尼御前SA先→加賀IC付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "上り：米原方面",
+                          "title": "福井IC付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "title": "南条SA・スマートIC→今庄IC付近",
+                          "direction": "上り：米原方面",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "上り：米原方面",
+                          "reason": "工事",
+                          "title": "今庄IC付近→杉津ﾄﾝﾈﾙ出口"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "title": "木之本IC付近→小谷城スマートIC付近",
+                          "direction": "上り：米原方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "下り：新潟方面",
+                          "title": "小谷城スマートIC付近",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "下り：新潟方面",
+                          "reason": "工事",
+                          "title": "柳ケ瀬ﾄﾝﾈﾙ付近→曽々木ﾄﾝﾈﾙ付近"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "reason": "工事",
+                          "direction": "下り：新潟方面",
+                          "title": "葉原ﾄﾝﾈﾙ付近→敦賀ﾄﾝﾈﾙ"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "下り：新潟方面",
+                          "title": "今庄IC→南条SA・スマートIC",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "工事",
+                          "direction": "下り：新潟方面",
+                          "title": "福井IC付近→福井北IC付近"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：新潟方面",
+                          "title": "安宅PA・スマートIC付近→小松IC付近",
+                          "reason": "工事"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：新潟方面",
+                          "title": "能美根上スマートIC→美川IC",
+                          "detail": "対面通行"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：新潟方面",
+                          "title": "能美根上スマートIC→美川IC",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "direction": "下り：新潟方面",
+                          "reason": "工事",
+                          "title": "高窪ﾄﾝﾈﾙ付近→小矢部IC付近",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "direction": "下り：新潟方面",
+                          "reason": "工事",
+                          "title": "小矢部IC付近→小矢部IC",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "direction": "下り：新潟方面",
+                          "reason": "工事",
+                          "title": "小矢部砺波JCT付近→小矢部砺波JCT",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "direction": "下り：新潟方面",
+                          "title": "砺波IC→砺波IC付近",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "工事",
+                          "direction": "下り：新潟方面",
+                          "title": "上市スマートIC→滑川IC"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "title": "風波ﾄﾝﾈﾙ出口→親不知IC",
+                          "direction": "下り：新潟方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "reason": "作業",
+                          "direction": "下り：新潟方面",
+                          "title": "三条燕IC→三条燕IC付近"
+                      },
+                      {
+                          "direction": "下り：新潟方面",
+                          "title": "三条燕IC→三条燕IC付近",
+                          "reason": "工事",
+                          "detail": "路肩規制"
+                      }
+                  ],
+                  "roadName": "北陸道"
+              },
+              {
+                  "roadName": "中央道",
+                  "info": [
+                      {
+                          "detail": "路肩規制",
+                          "title": "中津川IC・神坂PA間付近",
+                          "direction": "上り：東京方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "title": "網掛ﾄﾝﾈﾙ入口→阿智PA付近"
+                      },
+                      {
+                          "direction": "上り：東京方面",
+                          "title": "松川IC付近→飯島ﾊﾞｽ停",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "title": "駒ヶ根IC付近",
+                          "direction": "上り：東京方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "reason": "工事",
+                          "direction": "下り：名古屋方面",
+                          "title": "駒ヶ根IC付近"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "工事",
+                          "direction": "下り：名古屋方面",
+                          "title": "飯島ﾊﾞｽ停付近→松川IC付近"
+                      },
+                      {
+                          "direction": "下り：名古屋方面",
+                          "reason": "工事",
+                          "title": "阿智PA→網掛ﾄﾝﾈﾙ入口",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "title": "園原IC→恵那山ﾄﾝﾈﾙ付近",
+                          "direction": "下り：名古屋方面",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "title": "神坂PA付近",
+                          "direction": "下り：名古屋方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "direction": "下り：名古屋方面",
+                          "title": "中津川IC・神坂PA間付近",
+                          "reason": "工事",
+                          "detail": "路肩規制"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：諏訪方面",
+                          "reason": "工事",
+                          "title": "塩嶺ﾄﾝﾈﾙ入口→塩嶺ﾄﾝﾈﾙ"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "作業",
+                          "direction": "下り：長野方面",
+                          "title": "岡谷IC→塩嶺ﾄﾝﾈﾙ"
+                      }
+                  ],
+                  "roadName": "長野道"
+              },
+              {
+                  "info": [
+                      {
+                          "direction": "上り：東京方面",
+                          "title": "越後川口ﾄﾝﾈﾙ入口→越後川口ﾄﾝﾈﾙ出口",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "title": "下倉山ﾄﾝﾈﾙ入口→下倉山ﾄﾝﾈﾙ付近",
+                          "direction": "上り：東京方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "title": "坂戸西スマートIC付近→鶴ヶ島IC",
+                          "detail": "２車線規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "title": "渋川伊香保IC付近",
+                          "direction": "下り：新潟方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "title": "山本山ﾄﾝﾈﾙ入口→山本山ﾄﾝﾈﾙ",
+                          "direction": "下り：新潟方面",
+                          "reason": "工事"
+                      }
+                  ],
+                  "roadName": "関越道"
+              },
+              {
+                  "roadName": "上信越道",
+                  "info": [
+                      {
+                          "reason": "工事",
+                          "direction": "上り：東京方面",
+                          "title": "小布施PA・スマートIC→須坂長野東IC付近",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "title": "閼伽流山ﾄﾝﾈﾙ入口付近",
+                          "direction": "上り：東京方面",
+                          "reason": "故障車"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：東京方面",
+                          "title": "東部湯の丸IC付近",
+                          "reason": "作業"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "title": "閼伽流山ﾄﾝﾈﾙ入口→閼伽流山ﾄﾝﾈﾙ出口",
+                          "direction": "上り：東京方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "direction": "下り：上越方面",
+                          "reason": "工事",
+                          "title": "稲村山ﾄﾝﾈﾙ→碓氷軽井沢IC",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "direction": "下り：上越方面",
+                          "reason": "作業",
+                          "title": "東部湯の丸IC付近",
+                          "detail": "追越車線規制"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "direction": "上り：名古屋方面",
+                          "reason": "工事",
+                          "title": "美濃IC→美濃関JCT",
+                          "detail": "登坂車線規制"
+                      }
+                  ],
+                  "roadName": "東海北陸道"
+              }
+          ],
+          "underRegulation": [
+              {
+                  "info": [
+                      {
+                          "direction": "下り：上越方面",
+                          "title": "八風山ﾄﾝﾈﾙ付近",
+                          "reason": "工事",
+                          "detail": "規制中"
+                      }
+                  ],
+                  "roadName": "上信越道"
+              }
+          ]
+      },
+      "trafficInfo": {}
+  },
+  "area06": {
+      "otherTrafficInfo": {
+          "laneRestriction": [
+              {
+                  "roadName": "名神",
+                  "info": [
+                      {
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "title": "吹田IC→吹田JCT",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "direction": "上り：東京方面",
+                          "title": "百済寺ﾊﾞｽ停付近→湖東三山PA・スマートIC付近",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：神戸方面",
+                          "reason": "工事",
+                          "title": "米原JCT付近→彦根ﾄﾝﾈﾙ出口"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "direction": "下り：神戸方面",
+                          "title": "多賀SA・スマートIC付近→多賀SA・スマートIC",
+                          "reason": "工事"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：神戸方面",
+                          "title": "湖東三山PA・スマートIC付近→百済寺ﾊﾞｽ停",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "title": "吹田SA→豊中IC付近",
+                          "direction": "下り：神戸方面",
+                          "reason": "工事"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "中国道",
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "上り：吹田方面",
+                          "title": "ひょうご東条IC→吉川IC付近",
+                          "reason": "工事"
+                      },
+                      {
+                          "reason": "作業",
+                          "direction": "上り：吹田方面",
+                          "title": "神戸JCT→西宮北IC",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "title": "西宮北IC付近",
+                          "direction": "上り：吹田方面",
+                          "reason": "作業",
+                          "detail": "２車線規制"
+                      },
+                      {
+                          "detail": "２車線規制",
+                          "direction": "上り：吹田方面",
+                          "reason": "工事",
+                          "title": "宝塚IC付近"
+                      },
+                      {
+                          "detail": "車線規制",
+                          "direction": "上り：吹田方面",
+                          "reason": "作業",
+                          "title": "宝塚IC→中国池田IC"
+                      },
+                      {
+                          "direction": "上り：吹田方面",
+                          "reason": "作業",
+                          "title": "宝塚東ﾄﾝﾈﾙ付近→宝塚IC付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：下関方面",
+                          "title": "吹田JCT→中国吹田IC",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：下関方面",
+                          "reason": "作業",
+                          "title": "中国池田IC→宝塚IC"
+                      },
+                      {
+                          "detail": "車線規制",
+                          "direction": "下り：下関方面",
+                          "reason": "作業",
+                          "title": "中国池田IC→宝塚IC"
+                      },
+                      {
+                          "detail": "２車線規制",
+                          "direction": "下り：下関方面",
+                          "title": "西宮北IC付近→西宮北IC",
+                          "reason": "作業"
+                      },
+                      {
+                          "direction": "下り：下関方面",
+                          "title": "西宮山口JCT→西宮北IC",
+                          "reason": "作業",
+                          "detail": "追越車線規制"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "山陽道",
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "工事",
+                          "direction": "上り：神戸方面",
+                          "title": "谷内ﾄﾝﾈﾙ入口→谷内ﾄﾝﾈﾙ付近"
+                      },
+                      {
+                          "title": "三木小野IC付近",
+                          "direction": "上り：神戸方面",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：山口方面",
+                          "title": "白鳥PA→山陽姫路西IC",
+                          "reason": "工事"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "近畿道",
+                  "info": [
+                      {
+                          "reason": "工事",
+                          "direction": "上り：吹田方面",
+                          "title": "東大阪JCT付近",
+                          "detail": "２車線規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：吹田方面",
+                          "reason": "工事",
+                          "title": "守口JCT付近→守口JCT"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "title": "法隆寺IC→法隆寺IC付近",
+                          "direction": "上り：松原方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "direction": "上り：松原方面",
+                          "title": "藤井寺IC付近→藤井寺IC",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "title": "藤井寺IC付近→藤井寺IC",
+                          "direction": "上り：松原方面",
+                          "reason": "工事",
+                          "detail": "２車線規制"
+                      }
+                  ],
+                  "roadName": "西名阪道"
+              },
+              {
+                  "roadName": "新名神",
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：名古屋方面",
+                          "title": "金勝山ﾄﾝﾈﾙ付近→金勝山ﾄﾝﾈﾙ入口",
+                          "reason": "工事"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "上り：名古屋方面",
+                          "title": "甲南IC・甲賀土山IC間付近",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "direction": "上り：名古屋方面",
+                          "title": "鈴鹿ﾄﾝﾈﾙ付近→鈴鹿ﾄﾝﾈﾙ入口",
+                          "reason": "工事"
+                      },
+                      {
+                          "direction": "上り：名古屋方面",
+                          "reason": "工事",
+                          "title": "鈴鹿ﾄﾝﾈﾙ→亀山西JCT",
+                          "detail": "路肩規制"
+                      },
+                      {
+                          "direction": "下り：神戸方面",
+                          "title": "亀山西JCT付近",
+                          "reason": "工事",
+                          "detail": "路肩規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "下り：神戸方面",
+                          "title": "金勝山ﾄﾝﾈﾙ付近",
+                          "reason": "工事"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "title": "木之本IC付近→小谷城スマートIC付近",
+                          "direction": "上り：米原方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "direction": "下り：新潟方面",
+                          "reason": "工事",
+                          "title": "小谷城スマートIC付近",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "下り：新潟方面",
+                          "reason": "工事",
+                          "title": "柳ケ瀬ﾄﾝﾈﾙ付近→曽々木ﾄﾝﾈﾙ付近"
+                      }
+                  ],
+                  "roadName": "北陸道"
+              },
+              {
+                  "roadName": "関空連絡橋",
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "上り：東行",
+                          "title": "関西国際空港IC→関西国際空港連絡橋",
+                          "reason": "作業"
+                      },
+                      {
+                          "direction": "下り：空港方面",
+                          "reason": "作業",
+                          "title": "関西国際空港連絡橋付近",
+                          "detail": "第１走行規制"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "direction": "上り：北行",
+                          "title": "淡路島南IC付近→志知ﾊﾞｽ停付近",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "reason": "工事",
+                          "direction": "下り：南行",
+                          "title": "志知ﾊﾞｽ停付近"
+                      }
+                  ],
+                  "roadName": "神戸淡路鳴門道"
+              }
+          ],
+          "underRegulation": [
+              {
+                  "info": [
+                      {
+                          "detail": "規制中",
+                          "direction": "上り：松原方面",
+                          "reason": "作業",
+                          "title": "鳴神ﾊﾞｽ停→和歌山北IC"
+                      },
+                      {
+                          "detail": "規制中",
+                          "direction": "下り：田辺方面",
+                          "reason": "作業",
+                          "title": "和歌山北IC→鳴神ﾊﾞｽ停"
+                      }
+                  ],
+                  "roadName": "阪和道・湯浅御坊道路"
+              },
+              {
+                  "roadName": "山陽道",
+                  "info": [
+                      {
+                          "title": "神戸JCT付近",
+                          "direction": "上り：神戸方面",
+                          "reason": "工事",
+                          "detail": "規制中"
+                      },
+                      {
+                          "title": "小野ﾊﾞｽ停付近",
+                          "direction": "下り：山口方面",
+                          "reason": "工事",
+                          "detail": "規制中"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "第二神明道路",
+                  "info": [
+                      {
+                          "reason": "工事",
+                          "direction": "上り：神戸方面",
+                          "title": "明石SA→明石SA付近",
+                          "detail": "規制中"
+                      },
+                      {
+                          "detail": "規制中",
+                          "direction": "下り：姫路方面",
+                          "title": "明石SA付近→明石SA",
+                          "reason": "工事"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "舞鶴若狭道",
+                  "info": [
+                      {
+                          "detail": "規制中",
+                          "reason": "工事",
+                          "direction": "下り：敦賀方面",
+                          "title": "舞鶴PA→関屋ﾄﾝﾈﾙ付近"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "title": "草津田上IC付近→金勝山ﾄﾝﾈﾙ付近",
+                          "direction": "上り：名古屋方面",
+                          "reason": "工事",
+                          "detail": "規制中"
+                      },
+                      {
+                          "title": "金勝山ﾄﾝﾈﾙ出口→甲南ﾄﾝﾈﾙ",
+                          "direction": "上り：名古屋方面",
+                          "reason": "工事",
+                          "detail": "規制中"
+                      },
+                      {
+                          "direction": "上り：名古屋方面",
+                          "title": "甲南ﾄﾝﾈﾙ出口→甲南IC付近",
+                          "reason": "工事",
+                          "detail": "規制中"
+                      },
+                      {
+                          "direction": "上り：名古屋方面",
+                          "reason": "工事",
+                          "title": "甲南IC・甲賀土山IC間付近",
+                          "detail": "規制中"
+                      },
+                      {
+                          "detail": "規制中",
+                          "reason": "工事",
+                          "direction": "下り：神戸方面",
+                          "title": "甲南IC・甲賀土山IC間付近"
+                      },
+                      {
+                          "detail": "規制中",
+                          "direction": "下り：神戸方面",
+                          "reason": "工事",
+                          "title": "甲南IC→甲南ﾄﾝﾈﾙ入口"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：神戸方面",
+                          "title": "信楽IC→金勝山ﾄﾝﾈﾙ付近",
+                          "detail": "規制中"
+                      },
+                      {
+                          "direction": "下り：神戸方面",
+                          "reason": "工事",
+                          "title": "金勝山ﾄﾝﾈﾙ入口→金勝山ﾄﾝﾈﾙ付近",
+                          "detail": "規制中"
+                      },
+                      {
+                          "direction": "下り：神戸方面",
+                          "reason": "工事",
+                          "title": "城陽JCT・IC付近",
+                          "detail": "規制中"
+                      }
+                  ],
+                  "roadName": "新名神"
+              }
+          ]
+      },
+      "trafficInfo": {
+          "closed": [
+              {
+                  "info": [
+                      {
+                          "lineID": "10790155",
+                          "coordinate": [
+                              {
+                                  "endY": 7607,
+                                  "endX": 3575,
+                                  "startY": 7607,
+                                  "startX": 3640
+                              },
+                              {
+                                  "endX": 3508,
+                                  "endY": 7607,
+                                  "startX": 3575,
+                                  "startY": 7607
+                              }
+                          ],
+                          "direction": "下り：松山方面",
+                          "serialID": "177971",
+                          "reason": "工事",
+                          "title": "藍住IC→土成IC"
+                      },
+                      {
+                          "lineID": "10790155",
+                          "coordinate": [
+                              {
+                                  "endX": 3506,
+                                  "endY": 7607,
+                                  "startY": 7607,
+                                  "startX": 3509
+                              },
+                              {
+                                  "endX": 3443,
+                                  "endY": 7607,
+                                  "startY": 7607,
+                                  "startX": 3508
+                              },
+                              {
+                                  "endY": 7607,
+                                  "endX": 3377,
+                                  "startY": 7607,
+                                  "startX": 3443
+                              },
+                              {
+                                  "startY": 7607,
+                                  "startX": 3377,
+                                  "endX": 3310,
+                                  "endY": 7607
+                              },
+                              {
+                                  "endY": 7607,
+                                  "endX": 3245,
+                                  "startX": 3310,
+                                  "startY": 7607
+                              },
+                              {
+                                  "startY": 7607,
+                                  "startX": 3245,
+                                  "endX": 3180,
+                                  "endY": 7607
+                              },
+                              {
+                                  "startX": 3180,
+                                  "startY": 7607,
+                                  "endY": 7607,
+                                  "endX": 3113
+                              },
+                              {
+                                  "endX": 2999,
+                                  "endY": 7607,
+                                  "startY": 7607,
+                                  "startX": 3113
+                              }
+                          ],
+                          "serialID": "177971",
+                          "direction": "下り：松山方面",
+                          "title": "土成IC→川之江東JCT",
+                          "reason": "工事"
+                      },
+                      {
+                          "lineID": "10790152",
+                          "coordinate": [
+                              {
+                                  "endX": 3113,
+                                  "endY": 7598,
+                                  "startY": 7598,
+                                  "startX": 2999
+                              },
+                              {
+                                  "endY": 7598,
+                                  "endX": 3180,
+                                  "startY": 7598,
+                                  "startX": 3113
+                              },
+                              {
+                                  "startX": 3180,
+                                  "startY": 7598,
+                                  "endY": 7598,
+                                  "endX": 3245
+                              },
+                              {
+                                  "endY": 7598,
+                                  "endX": 3310,
+                                  "startX": 3245,
+                                  "startY": 7598
+                              },
+                              {
+                                  "endY": 7598,
+                                  "endX": 3377,
+                                  "startY": 7598,
+                                  "startX": 3310
+                              },
+                              {
+                                  "endY": 7598,
+                                  "endX": 3443,
+                                  "startX": 3377,
+                                  "startY": 7598
+                              },
+                              {
+                                  "endY": 7598,
+                                  "endX": 3507,
+                                  "startX": 3443,
+                                  "startY": 7598
+                              }
+                          ],
+                          "serialID": "177969",
+                          "direction": "上り：鳴門方面",
+                          "reason": "工事",
+                          "title": "川之江東JCT→土成IC"
+                      },
+                      {
+                          "serialID": "177969",
+                          "direction": "上り：鳴門方面",
+                          "title": "土成IC→藍住IC",
+                          "reason": "工事",
+                          "coordinate": [
+                              {
+                                  "startY": 7598,
+                                  "startX": 3506,
+                                  "endX": 3509,
+                                  "endY": 7598
+                              },
+                              {
+                                  "startX": 3508,
+                                  "startY": 7598,
+                                  "endY": 7598,
+                                  "endX": 3575
+                              },
+                              {
+                                  "endX": 3639,
+                                  "endY": 7598,
+                                  "startY": 7598,
+                                  "startX": 3575
+                              }
+                          ],
+                          "lineID": "10790152"
+                      }
+                  ],
+                  "roadName": "徳島道"
+              }
+          ],
+          "jam": [
+              {
+                  "info": [
+                      {
+                          "coordinate": [
+                              {
+                                  "startY": 6925,
+                                  "startX": 4401,
+                                  "endX": 4401,
+                                  "endY": 6913
+                              }
+                          ],
+                          "distance": "1",
+                          "direction": "上り：吹田方面",
+                          "reason": "",
+                          "title": "守口JCT付近"
+                      }
+                  ],
+                  "roadName": "近畿道"
+              }
+          ]
+      },
+      "areaCenterX": 4237,
+      "areaCenterY": 7153,
+      "trafficCount": {
+          "snowChain": 0,
+          "closed": 4,
+          "accident": 0,
+          "snowPlow": 0,
+          "ramp": 0,
+          "antifreeze": 0,
+          "jam": 1,
+          "snowTires": 0,
+          "oneLane": 0
+      }
+  },
+  "area07": {
+      "otherTrafficInfo": {
+          "speed": [
+              {
+                  "roadName": "九州道",
+                  "info": [
+                      {
+                          "direction": "下り：鹿児島方面",
+                          "title": "門司IC→南関IC",
+                          "reason": "雨",
+                          "detail": "８０キロ規制"
+                      },
+                      {
+                          "detail": "８０キロ規制",
+                          "reason": "雨",
+                          "direction": "上り：山口方面",
+                          "title": "南関IC→門司IC"
+                      }
+                  ]
+              }
+          ],
+          "laneRestriction": [
+              {
+                  "roadName": "山陽道",
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "上り：神戸方面",
+                          "title": "岩国IC→小瀬ﾄﾝﾈﾙ出口",
+                          "reason": "作業"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "title": "廿日市JCT付近",
+                          "direction": "上り：神戸方面",
+                          "reason": "作業"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：神戸方面",
+                          "title": "沼田PA→広島IC",
+                          "reason": "作業"
+                      },
+                      {
+                          "title": "志和ﾄﾝﾈﾙ入口→志和ﾄﾝﾈﾙ出口",
+                          "direction": "上り：神戸方面",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "title": "岡山JCT→鼓山ﾄﾝﾈﾙ入口",
+                          "direction": "上り：神戸方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "下り：山口方面",
+                          "title": "閑谷ﾄﾝﾈﾙ付近→稲坪ﾄﾝﾈﾙ入口",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "工事",
+                          "direction": "下り：山口方面",
+                          "title": "馬屋ﾄﾝﾈﾙ入口→宗谷山ﾄﾝﾈﾙ"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "下り：山口方面",
+                          "title": "坂田ﾄﾝﾈﾙ入口→福山SA",
+                          "reason": "工事"
+                      },
+                      {
+                          "direction": "下り：山口方面",
+                          "reason": "作業",
+                          "title": "本郷IC→本谷ﾄﾝﾈﾙ出口",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "direction": "下り：山口方面",
+                          "reason": "工事",
+                          "title": "広島東IC→広島IC付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "title": "五日市ﾄﾝﾈﾙ入口→五日市ﾄﾝﾈﾙ出口",
+                          "direction": "下り：山口方面",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "title": "山口南IC付近→黒河内山ﾄﾝﾈﾙ出口",
+                          "direction": "下り：山口方面",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "中国道",
+                  "info": [
+                      {
+                          "direction": "上り：吹田方面",
+                          "reason": "工事",
+                          "title": "米山ﾄﾝﾈﾙ入口→米山ﾄﾝﾈﾙ付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "direction": "上り：吹田方面",
+                          "title": "馬越ﾄﾝﾈﾙ出口→大井ﾄﾝﾈﾙ入口",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "工事",
+                          "direction": "上り：吹田方面",
+                          "title": "戸河内IC→加計スマートIC"
+                      },
+                      {
+                          "title": "筒賀PA→加計西ﾄﾝﾈﾙ入口",
+                          "direction": "上り：吹田方面",
+                          "reason": "作業",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "direction": "上り：吹田方面",
+                          "reason": "作業",
+                          "title": "江の川PA→三次IC付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：吹田方面",
+                          "reason": "作業",
+                          "title": "庄原IC付近→庄原IC先"
+                      },
+                      {
+                          "direction": "上り：吹田方面",
+                          "reason": "工事",
+                          "title": "東城IC付近→東城IC",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "上り：吹田方面",
+                          "title": "熊谷ﾊﾞｽ停→熊谷ﾊﾞｽ停付近",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "direction": "上り：吹田方面",
+                          "title": "大佐SA→布瀬ﾄﾝﾈﾙ付近",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "reason": "作業",
+                          "direction": "上り：吹田方面",
+                          "title": "布瀬ﾄﾝﾈﾙ付近→北房ﾄﾝﾈﾙ付近",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：吹田方面",
+                          "title": "楢原PA→作東IC付近",
+                          "reason": "作業"
+                      },
+                      {
+                          "direction": "下り：下関方面",
+                          "reason": "工事",
+                          "title": "楢原PA付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "title": "津山IC→津山IC付近",
+                          "direction": "下り：下関方面",
+                          "reason": "作業",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "title": "熊谷ﾊﾞｽ停→新見IC",
+                          "direction": "下り：下関方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "direction": "下り：下関方面",
+                          "title": "本村PA付近→本村PA",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "reason": "作業",
+                          "direction": "下り：下関方面",
+                          "title": "帝釈ﾊﾞｽ停→本村PA",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "reason": "作業",
+                          "direction": "下り：下関方面",
+                          "title": "本村PA先→庄原IC付近",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：下関方面",
+                          "title": "三次IC付近",
+                          "reason": "作業"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：下関方面",
+                          "title": "加計東ﾄﾝﾈﾙ出口→加計西ﾄﾝﾈﾙ出口",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "作業",
+                          "direction": "下り：下関方面",
+                          "title": "加計西ﾄﾝﾈﾙ出口→筒賀PA"
+                      },
+                      {
+                          "direction": "下り：下関方面",
+                          "title": "布原ﾄﾝﾈﾙ出口→境ﾄﾝﾈﾙ入口",
+                          "reason": "作業",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "title": "深谷PA付近→田野原ﾄﾝﾈﾙ入口",
+                          "direction": "下り：下関方面",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "reason": "工事",
+                          "direction": "下り：下関方面",
+                          "title": "美祢東JCT付近"
+                      },
+                      {
+                          "detail": "２車線規制",
+                          "title": "下関JCT→下関JCT付近",
+                          "direction": "下り：下関方面",
+                          "reason": "工事"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "米子道",
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "工事",
+                          "direction": "上り：岡山方面",
+                          "title": "久見ﾄﾝﾈﾙ付近→湯原IC"
+                      },
+                      {
+                          "direction": "下り：米子方面",
+                          "title": "二川ﾊﾞｽ停→二川ﾊﾞｽ停付近",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：北行",
+                          "title": "有漢ﾄﾝﾈﾙ出口→北房水田ﾊﾞｽ停",
+                          "reason": "工事"
+                      }
+                  ],
+                  "roadName": "岡山道"
+              },
+              {
+                  "roadName": "広島道",
+                  "info": [
+                      {
+                          "direction": "上り：北行",
+                          "reason": "作業",
+                          "title": "広島JCT→広島西風新都IC付近",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "direction": "上り：北行",
+                          "title": "宮郷ﾄﾝﾈﾙ入口→日浦ﾄﾝﾈﾙ",
+                          "reason": "作業",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "title": "広島西風新都IC付近→広島JCT",
+                          "direction": "下り：南行",
+                          "reason": "作業"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "瀬戸中央道",
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "工事",
+                          "direction": "上り：岡山方面",
+                          "title": "坂出北IC付近→坂出北IC"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：高松方面",
+                          "title": "坂出北IC付近",
+                          "reason": "工事"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "reason": "工事",
+                          "direction": "下り：呉方面",
+                          "title": "坂料金所→坂北IC"
+                      }
+                  ],
+                  "roadName": "広島呉道路"
+              }
+          ],
+          "underRegulation": [
+              {
+                  "info": [
+                      {
+                          "detail": "規制中",
+                          "reason": "工事",
+                          "direction": "上り：南行",
+                          "title": "有漢ﾄﾝﾈﾙ付近→有漢IC"
+                      }
+                  ],
+                  "roadName": "岡山道"
+              },
+              {
+                  "roadName": "浜田道",
+                  "info": [
+                      {
+                          "detail": "規制中",
+                          "reason": "工事",
+                          "direction": "上り：広島方面",
+                          "title": "後野ﾄﾝﾈﾙ入口付近"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "山陰道",
+                  "info": [
+                      {
+                          "title": "出雲IC付近",
+                          "direction": "上り：米子方面",
+                          "reason": "工事",
+                          "detail": "規制中"
+                      },
+                      {
+                          "title": "出雲IC付近",
+                          "direction": "下り：浜田方面",
+                          "reason": "工事",
+                          "detail": "規制中"
+                      }
+                  ]
+              }
+          ]
+      },
+      "trafficInfo": {
+          "closed": [
+              {
+                  "roadName": "広島呉道路",
+                  "info": [
+                      {
+                          "lineID": "31601702",
+                          "coordinate": [
+                              {
+                                  "startX": 2551,
+                                  "startY": 7374,
+                                  "endX": 2551,
+                                  "endY": 7347
+                              },
+                              {
+                                  "startY": 7347,
+                                  "startX": 2551,
+                                  "endX": 2551,
+                                  "endY": 7323
+                              },
+                              {
+                                  "startY": 7323,
+                                  "startX": 2551,
+                                  "endX": 2551,
+                                  "endY": 7296
+                              },
+                              {
+                                  "endY": 7275,
+                                  "endX": 2551,
+                                  "startX": 2551,
+                                  "startY": 7296
+                              }
+                          ],
+                          "serialID": "178079",
+                          "reason": "工事",
+                          "direction": "上り：広島方面",
+                          "title": "呉IC→坂北IC"
+                      },
+                      {
+                          "coordinate": [
+                              {
+                                  "startY": 7274,
+                                  "startX": 2561,
+                                  "endY": 7296,
+                                  "endX": 2561
+                              },
+                              {
+                                  "endY": 7323,
+                                  "endX": 2561,
+                                  "startX": 2561,
+                                  "startY": 7296
+                              },
+                              {
+                                  "endX": 2561,
+                                  "endY": 7347,
+                                  "startX": 2561,
+                                  "startY": 7323
+                              },
+                              {
+                                  "startY": 7347,
+                                  "startX": 2561,
+                                  "endY": 7373,
+                                  "endX": 2561
+                              }
+                          ],
+                          "lineID": "31601705",
+                          "direction": "下り：呉方面",
+                          "serialID": "178080",
+                          "reason": "工事",
+                          "title": "坂北IC→呉IC"
+                      }
+                  ]
+              }
+          ],
+          "ramp": [
+              {
+                  "roadName": "広島呉道路",
+                  "ic": [
+                      {
+                          "en": {
+                              "angle": 0,
+                              "pointX": 2556,
+                              "pointY": 7372
+                          },
+                          "info": [
+                              {
+                                  "direction": "上り：仁保方面",
+                                  "reason": "工事",
+                                  "title": "呉ＩＣ"
+                              },
+                              {
+                                  "reason": "工事",
+                                  "direction": "下り",
+                                  "title": "呉ＩＣ"
+                              }
+                          ],
+                          "coordinate": {
+                              "startY": 7358,
+                              "startX": 2564,
+                              "endY": 7385,
+                              "endX": 2593
+                          }
+                      }
+                  ]
+              }
+          ]
+      },
+      "areaCenterY": 6859,
+      "trafficCount": {
+          "snowTires": 0,
+          "oneLane": 0,
+          "ramp": 2,
+          "antifreeze": 0,
+          "jam": 0,
+          "accident": 0,
+          "snowPlow": 0,
+          "snowChain": 0,
+          "closed": 2
+      },
+      "areaCenterX": 2710
+  },
+  "area08": {
+      "areaCenterY": 7586,
+      "trafficCount": {
+          "snowTires": 0,
+          "oneLane": 0,
+          "jam": 0,
+          "antifreeze": 0,
+          "ramp": 0,
+          "snowPlow": 0,
+          "accident": 0,
+          "closed": 4,
+          "snowChain": 0
+      },
+      "areaCenterX": 3152,
+      "trafficInfo": {
+          "closed": [
+              {
+                  "roadName": "徳島道",
+                  "info": [
+                      {
+                          "coordinate": [
+                              {
+                                  "startX": 2999,
+                                  "startY": 7598,
+                                  "endY": 7598,
+                                  "endX": 3113
+                              },
+                              {
+                                  "startY": 7598,
+                                  "startX": 3113,
+                                  "endY": 7598,
+                                  "endX": 3180
+                              },
+                              {
+                                  "endX": 3245,
+                                  "endY": 7598,
+                                  "startX": 3180,
+                                  "startY": 7598
+                              },
+                              {
+                                  "startY": 7598,
+                                  "startX": 3245,
+                                  "endX": 3310,
+                                  "endY": 7598
+                              },
+                              {
+                                  "endX": 3377,
+                                  "endY": 7598,
+                                  "startX": 3310,
+                                  "startY": 7598
+                              },
+                              {
+                                  "startY": 7598,
+                                  "startX": 3377,
+                                  "endY": 7598,
+                                  "endX": 3443
+                              },
+                              {
+                                  "startY": 7598,
+                                  "startX": 3443,
+                                  "endX": 3507,
+                                  "endY": 7598
+                              }
+                          ],
+                          "lineID": "10790152",
+                          "title": "川之江東JCT→土成IC",
+                          "serialID": "177969",
+                          "direction": "上り：鳴門方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "title": "土成IC→藍住IC",
+                          "serialID": "177969",
+                          "direction": "上り：鳴門方面",
+                          "reason": "工事",
+                          "coordinate": [
+                              {
+                                  "endX": 3509,
+                                  "endY": 7598,
+                                  "startX": 3506,
+                                  "startY": 7598
+                              },
+                              {
+                                  "endY": 7598,
+                                  "endX": 3575,
+                                  "startY": 7598,
+                                  "startX": 3508
+                              },
+                              {
+                                  "startY": 7598,
+                                  "startX": 3575,
+                                  "endX": 3639,
+                                  "endY": 7598
+                              }
+                          ],
+                          "lineID": "10790152"
+                      },
+                      {
+                          "direction": "下り：松山方面",
+                          "serialID": "177971",
+                          "title": "藍住IC→土成IC",
+                          "reason": "工事",
+                          "coordinate": [
+                              {
+                                  "startX": 3640,
+                                  "startY": 7607,
+                                  "endY": 7607,
+                                  "endX": 3575
+                              },
+                              {
+                                  "endY": 7607,
+                                  "endX": 3508,
+                                  "startX": 3575,
+                                  "startY": 7607
+                              }
+                          ],
+                          "lineID": "10790155"
+                      },
+                      {
+                          "serialID": "177971",
+                          "direction": "下り：松山方面",
+                          "reason": "工事",
+                          "title": "土成IC→川之江東JCT",
+                          "coordinate": [
+                              {
+                                  "endY": 7607,
+                                  "endX": 3506,
+                                  "startX": 3509,
+                                  "startY": 7607
+                              },
+                              {
+                                  "endY": 7607,
+                                  "endX": 3443,
+                                  "startY": 7607,
+                                  "startX": 3508
+                              },
+                              {
+                                  "endX": 3377,
+                                  "endY": 7607,
+                                  "startX": 3443,
+                                  "startY": 7607
+                              },
+                              {
+                                  "startX": 3377,
+                                  "startY": 7607,
+                                  "endY": 7607,
+                                  "endX": 3310
+                              },
+                              {
+                                  "endY": 7607,
+                                  "endX": 3245,
+                                  "startY": 7607,
+                                  "startX": 3310
+                              },
+                              {
+                                  "startX": 3245,
+                                  "startY": 7607,
+                                  "endX": 3180,
+                                  "endY": 7607
+                              },
+                              {
+                                  "startY": 7607,
+                                  "startX": 3180,
+                                  "endY": 7607,
+                                  "endX": 3113
+                              },
+                              {
+                                  "startY": 7607,
+                                  "startX": 3113,
+                                  "endY": 7607,
+                                  "endX": 2999
+                              }
+                          ],
+                          "lineID": "10790155"
+                      }
+                  ]
+              }
+          ]
+      },
+      "otherTrafficInfo": {
+          "laneRestriction": [
+              {
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "title": "法皇ﾄﾝﾈﾙ出口→川之江東JCT",
+                          "direction": "上り：高松方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "下り：須崎方面",
+                          "reason": "工事",
+                          "title": "川之江JCT付近→川之江東JCT"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：須崎方面",
+                          "title": "新宮IC→笹ヶ峰ﾄﾝﾈﾙ付近",
+                          "reason": "工事"
+                      }
+                  ],
+                  "roadName": "高知道"
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：北行",
+                          "title": "淡路島南IC付近→志知ﾊﾞｽ停付近",
+                          "reason": "工事"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：南行",
+                          "title": "志知ﾊﾞｽ停付近",
+                          "detail": "追越車線規制"
+                      }
+                  ],
+                  "roadName": "神戸淡路鳴門道"
+              },
+              {
+                  "roadName": "瀬戸中央道",
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "上り：岡山方面",
+                          "reason": "工事",
+                          "title": "坂出北IC付近→坂出北IC"
+                      },
+                      {
+                          "title": "坂出北IC付近",
+                          "direction": "下り：高松方面",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      }
+                  ]
+              }
+          ]
+      }
+  },
+  "area05": {
+      "trafficInfo": {
+          "closed": [
+              {
+                  "roadName": "名二環",
+                  "info": [
+                      {
+                          "lineID": "10460102",
+                          "coordinate": [
+                              {
+                                  "endX": 5284,
+                                  "endY": 6586,
+                                  "startX": 5286,
+                                  "startY": 6588
+                              },
+                              {
+                                  "endX": 5284,
+                                  "endY": 6565,
+                                  "startY": 6586,
+                                  "startX": 5284
+                              },
+                              {
+                                  "endY": 6535,
+                                  "endX": 5284,
+                                  "startY": 6565,
+                                  "startX": 5284
+                              },
+                              {
+                                  "startY": 6535,
+                                  "startX": 5284,
+                                  "endY": 6516,
+                                  "endX": 5284
+                              },
+                              {
+                                  "endY": 6489,
+                                  "endX": 5284,
+                                  "startX": 5284,
+                                  "startY": 6516
+                              },
+                              {
+                                  "startY": 6489,
+                                  "startX": 5284,
+                                  "endX": 5284,
+                                  "endY": 6476
+                              },
+                              {
+                                  "endX": 5312,
+                                  "endY": 6476,
+                                  "startY": 6476,
+                                  "startX": 5284
+                              }
+                          ],
+                          "serialID": "174466",
+                          "title": "名古屋西JCT→清洲西IC",
+                          "direction": "外回り名古屋南方面",
+                          "reason": "工事"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "direction": "上り：外回り方面",
+                          "serialID": "178063",
+                          "reason": "工事",
+                          "title": "養老IC→大野神戸IC",
+                          "lineID": "31400302",
+                          "coordinate": [
+                              {
+                                  "startX": 5218,
+                                  "startY": 6388,
+                                  "endY": 6345,
+                                  "endX": 5218
+                              },
+                              {
+                                  "endX": 5218,
+                                  "endY": 6307,
+                                  "startX": 5218,
+                                  "startY": 6345
+                              },
+                              {
+                                  "startX": 5218,
+                                  "startY": 6307,
+                                  "endX": 5218,
+                                  "endY": 6269
+                              }
+                          ]
+                      },
+                      {
+                          "coordinate": [
+                              {
+                                  "startY": 6157,
+                                  "startX": 5335,
+                                  "endX": 5374,
+                                  "endY": 6157
+                              },
+                              {
+                                  "endY": 6157,
+                                  "endX": 5405,
+                                  "startX": 5374,
+                                  "startY": 6157
+                              },
+                              {
+                                  "endY": 6157,
+                                  "endX": 5453,
+                                  "startX": 5405,
+                                  "startY": 6157
+                              },
+                              {
+                                  "startY": 6157,
+                                  "startX": 5453,
+                                  "endX": 5544,
+                                  "endY": 6157
+                              },
+                              {
+                                  "startY": 6157,
+                                  "startX": 5544,
+                                  "endY": 6157,
+                                  "endX": 5568
+                              },
+                              {
+                                  "endY": 6219,
+                                  "endX": 5630,
+                                  "startY": 6157,
+                                  "startX": 5568
+                              },
+                              {
+                                  "startX": 5630,
+                                  "startY": 6219,
+                                  "endY": 6256,
+                                  "endX": 5667
+                              },
+                              {
+                                  "endX": 5702,
+                                  "endY": 6291,
+                                  "startX": 5667,
+                                  "startY": 6256
+                              },
+                              {
+                                  "endY": 6347,
+                                  "endX": 5758,
+                                  "startX": 5702,
+                                  "startY": 6291
+                              },
+                              {
+                                  "endX": 5804,
+                                  "endY": 6392,
+                                  "startY": 6347,
+                                  "startX": 5758
+                              },
+                              {
+                                  "startY": 6392,
+                                  "startX": 5804,
+                                  "endY": 6448,
+                                  "endX": 5804
+                              }
+                          ],
+                          "lineID": "31400302",
+                          "title": "山県IC→土岐南多治見IC",
+                          "serialID": "178064",
+                          "direction": "上り：外回り方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "lineID": "31400305",
+                          "coordinate": [
+                              {
+                                  "startY": 6448,
+                                  "startX": 5795,
+                                  "endX": 5795,
+                                  "endY": 6397
+                              },
+                              {
+                                  "startX": 5795,
+                                  "startY": 6397,
+                                  "endX": 5746,
+                                  "endY": 6348
+                              },
+                              {
+                                  "endX": 5694,
+                                  "endY": 6297,
+                                  "startX": 5746,
+                                  "startY": 6348
+                              },
+                              {
+                                  "startY": 6297,
+                                  "startX": 5694,
+                                  "endX": 5660,
+                                  "endY": 6263
+                              },
+                              {
+                                  "startX": 5660,
+                                  "startY": 6263,
+                                  "endY": 6224,
+                                  "endX": 5621
+                              },
+                              {
+                                  "startX": 5621,
+                                  "startY": 6224,
+                                  "endY": 6166,
+                                  "endX": 5563
+                              },
+                              {
+                                  "startX": 5563,
+                                  "startY": 6166,
+                                  "endX": 5544,
+                                  "endY": 6166
+                              },
+                              {
+                                  "endX": 5453,
+                                  "endY": 6166,
+                                  "startY": 6166,
+                                  "startX": 5544
+                              },
+                              {
+                                  "endY": 6166,
+                                  "endX": 5405,
+                                  "startY": 6166,
+                                  "startX": 5453
+                              },
+                              {
+                                  "endY": 6166,
+                                  "endX": 5374,
+                                  "startX": 5405,
+                                  "startY": 6166
+                              },
+                              {
+                                  "startY": 6166,
+                                  "startX": 5374,
+                                  "endX": 5335,
+                                  "endY": 6166
+                              }
+                          ],
+                          "direction": "下り：内回り方面",
+                          "serialID": "178066",
+                          "title": "土岐南多治見IC→山県IC",
+                          "reason": "工事"
+                      },
+                      {
+                          "serialID": "178065",
+                          "reason": "工事",
+                          "direction": "下り：内回り方面",
+                          "title": "大野神戸IC→養老IC",
+                          "lineID": "31400305",
+                          "coordinate": [
+                              {
+                                  "endY": 6307,
+                                  "endX": 5226,
+                                  "startX": 5226,
+                                  "startY": 6269
+                              },
+                              {
+                                  "startY": 6307,
+                                  "startX": 5226,
+                                  "endY": 6345,
+                                  "endX": 5226
+                              },
+                              {
+                                  "startY": 6345,
+                                  "startX": 5226,
+                                  "endX": 5226,
+                                  "endY": 6388
+                              }
+                          ]
+                      }
+                  ],
+                  "roadName": "東海環状道"
+              }
+          ],
+          "ramp": [
+              {
+                  "roadName": "名二環",
+                  "ic": [
+                      {
+                          "en": {
+                              "pointX": 5290,
+                              "pointY": 6587,
+                              "angle": 0
+                          },
+                          "info": [
+                              {
+                                  "direction": "外回：名古屋方面",
+                                  "title": "名古屋西ＪＣＴ",
+                                  "reason": "工事"
+                              }
+                          ],
+                          "coordinate": {
+                              "startY": 6574,
+                              "startX": 5177,
+                              "endY": 6597,
+                              "endX": 5274
+                          }
+                      }
+                  ]
+              },
+              {
+                  "ic": [
+                      {
+                          "coordinate": {
+                              "startX": 5177,
+                              "startY": 6574,
+                              "endX": 5274,
+                              "endY": 6597
+                          },
+                          "info": [
+                              {
+                                  "title": "名古屋西ＪＣＴ",
+                                  "direction": "上り：名古屋方面",
+                                  "reason": "工事"
+                              }
+                          ],
+                          "en": {
+                              "pointX": 5290,
+                              "pointY": 6587,
+                              "angle": 0
+                          }
+                      }
+                  ],
+                  "roadName": "東名阪道"
+              },
+              {
+                  "roadName": "東海環状道",
+                  "ic": [
+                      {
+                          "coordinate": {
+                              "startY": 6104,
+                              "startX": 5324,
+                              "endY": 6150,
+                              "endX": 5346
+                          },
+                          "info": [
+                              {
+                                  "title": "山県ＩＣ",
+                                  "direction": "外回：豊田東方面",
+                                  "reason": "工事"
+                              },
+                              {
+                                  "reason": "工事",
+                                  "direction": "内回",
+                                  "title": "山県ＩＣ"
+                              }
+                          ],
+                          "en": {
+                              "angle": 90,
+                              "pointY": 6162,
+                              "pointX": 5336
+                          }
+                      },
+                      {
+                          "info": [
+                              {
+                                  "direction": "外回：大野神戸方面",
+                                  "title": "養老ＩＣ",
+                                  "reason": "工事"
+                              },
+                              {
+                                  "direction": "内回",
+                                  "reason": "工事",
+                                  "title": "養老ＩＣ"
+                              }
+                          ],
+                          "coordinate": {
+                              "endY": 6432,
+                              "endX": 5233,
+                              "startX": 5211,
+                              "startY": 6391
+                          },
+                          "en": {
+                              "pointX": 5222,
+                              "pointY": 6386,
+                              "angle": 0
+                          }
+                      }
+                  ]
+              }
+          ]
+      },
+      "otherTrafficInfo": {
+          "underRegulation": [
+              {
+                  "roadName": "新名神",
+                  "info": [
+                      {
+                          "direction": "上り：名古屋方面",
+                          "title": "金勝山ﾄﾝﾈﾙ出口→甲南ﾄﾝﾈﾙ",
+                          "reason": "工事",
+                          "detail": "規制中"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "上り：名古屋方面",
+                          "title": "甲南ﾄﾝﾈﾙ出口→甲南IC付近",
+                          "detail": "規制中"
+                      },
+                      {
+                          "detail": "規制中",
+                          "direction": "上り：名古屋方面",
+                          "reason": "工事",
+                          "title": "甲南IC・甲賀土山IC間付近"
+                      },
+                      {
+                          "direction": "下り：神戸方面",
+                          "title": "甲南IC・甲賀土山IC間付近",
+                          "reason": "工事",
+                          "detail": "規制中"
+                      },
+                      {
+                          "detail": "規制中",
+                          "title": "甲南IC→甲南ﾄﾝﾈﾙ入口",
+                          "direction": "下り：神戸方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：神戸方面",
+                          "title": "信楽IC→金勝山ﾄﾝﾈﾙ付近",
+                          "detail": "規制中"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "reason": "工事",
+                          "direction": "下り：上越方面",
+                          "title": "八風山ﾄﾝﾈﾙ付近",
+                          "detail": "規制中"
+                      }
+                  ],
+                  "roadName": "上信越道"
+              }
+          ],
+          "laneRestriction": [
+              {
+                  "info": [
+                      {
+                          "detail": "路肩規制",
+                          "reason": "工事",
+                          "direction": "上り：東京方面",
+                          "title": "岩津ﾊﾞｽ停付近"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "上り：東京方面",
+                          "title": "新城PA付近→宇利ﾄﾝﾈﾙ出口",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "title": "白旗ﾄﾝﾈﾙ入口→高尾ﾄﾝﾈﾙ"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：大阪方面",
+                          "reason": "工事",
+                          "title": "大井松田IC付近"
+                      },
+                      {
+                          "direction": "下り：大阪方面",
+                          "title": "大井松田IC付近",
+                          "reason": "工事",
+                          "detail": "登坂車線規制"
+                      },
+                      {
+                          "detail": "車線規制",
+                          "title": "岡津ﾊﾞｽ停付近",
+                          "direction": "下り：大阪方面",
+                          "reason": "作業"
+                      },
+                      {
+                          "direction": "下り：大阪方面",
+                          "title": "三ヶ日JCT付近→宇利ﾄﾝﾈﾙ出口",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "title": "岩津ﾊﾞｽ停付近",
+                          "direction": "下り：大阪方面",
+                          "reason": "工事"
+                      }
+                  ],
+                  "roadName": "東名"
+              },
+              {
+                  "roadName": "名神",
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "reason": "工事",
+                          "direction": "上り：東京方面",
+                          "title": "百済寺ﾊﾞｽ停付近→湖東三山PA・スマートIC付近"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "title": "養老JCT付近"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "title": "木曽川橋→尾西ﾊﾞｽ停"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "title": "岐阜羽島IC付近→尾西ﾊﾞｽ停",
+                          "direction": "上り：東京方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "title": "一宮JCT→一宮IC付近",
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "detail": "路肩規制"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "direction": "下り：神戸方面",
+                          "reason": "工事",
+                          "title": "一宮IC付近"
+                      },
+                      {
+                          "title": "尾西ﾊﾞｽ停→木曽川橋",
+                          "direction": "下り：神戸方面",
+                          "reason": "工事",
+                          "detail": "路肩規制"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：神戸方面",
+                          "title": "養老JCT付近",
+                          "detail": "路肩規制"
+                      },
+                      {
+                          "direction": "下り：神戸方面",
+                          "title": "米原JCT付近→彦根ﾄﾝﾈﾙ出口",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：神戸方面",
+                          "title": "多賀SA・スマートIC付近→多賀SA・スマートIC",
+                          "detail": "路肩規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "下り：神戸方面",
+                          "title": "湖東三山PA・スマートIC付近→百済寺ﾊﾞｽ停",
+                          "reason": "工事"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "中央道",
+                  "info": [
+                      {
+                          "detail": "路肩規制",
+                          "direction": "上り：東京方面",
+                          "title": "桃花台ﾊﾞｽ停付近→小牧東IC付近",
+                          "reason": "工事"
+                      },
+                      {
+                          "title": "土岐JCT付近",
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "detail": "路肩規制"
+                      },
+                      {
+                          "direction": "上り：東京方面",
+                          "title": "中津川IC・神坂PA間付近",
+                          "reason": "工事",
+                          "detail": "路肩規制"
+                      },
+                      {
+                          "title": "網掛ﾄﾝﾈﾙ入口→阿智PA付近",
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "title": "松川IC付近→飯島ﾊﾞｽ停"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "title": "駒ヶ根IC付近"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "direction": "下り：名古屋方面",
+                          "reason": "工事",
+                          "title": "駒ヶ根IC付近"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "工事",
+                          "direction": "下り：名古屋方面",
+                          "title": "飯島ﾊﾞｽ停付近→松川IC付近"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "title": "阿智PA→網掛ﾄﾝﾈﾙ入口",
+                          "direction": "下り：名古屋方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "direction": "下り：名古屋方面",
+                          "reason": "工事",
+                          "title": "園原IC→恵那山ﾄﾝﾈﾙ付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "direction": "下り：名古屋方面",
+                          "reason": "工事",
+                          "title": "神坂PA付近",
+                          "detail": "路肩規制"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "direction": "下り：名古屋方面",
+                          "reason": "工事",
+                          "title": "中津川IC・神坂PA間付近"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：名古屋方面",
+                          "title": "土岐JCT付近",
+                          "detail": "登坂車線規制"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "title": "小牧東IC付近→桃花台ﾊﾞｽ停付近",
+                          "direction": "下り：名古屋方面",
+                          "reason": "工事"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "外回り名古屋南方面",
+                          "reason": "工事",
+                          "title": "千音寺南IC→名古屋西JCT"
+                      }
+                  ],
+                  "roadName": "名二環"
+              },
+              {
+                  "roadName": "東名阪道",
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "reason": "工事",
+                          "direction": "上り：東行",
+                          "title": "伊勢関IC→亀山IC"
+                      },
+                      {
+                          "direction": "上り：東行",
+                          "title": "西山ﾊﾞｽ停付近",
+                          "reason": "工事",
+                          "detail": "２車線規制"
+                      },
+                      {
+                          "direction": "上り：東行",
+                          "title": "鈴鹿IC付近→西山ﾊﾞｽ停付近",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "reason": "工事",
+                          "direction": "上り：東行",
+                          "title": "四日市IC→御在所SA"
+                      },
+                      {
+                          "title": "県ﾊﾞｽ停→四日市東IC",
+                          "direction": "上り：東行",
+                          "reason": "工事",
+                          "detail": "２車線規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "上り：東行",
+                          "reason": "工事",
+                          "title": "大山田PA→弥富IC"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "title": "名古屋西料金所→蟹江IC付近",
+                          "direction": "下り：西行",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "下り：西行",
+                          "title": "鈴鹿IC付近→亀山JCT",
+                          "reason": "工事"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：名古屋方面",
+                          "reason": "工事",
+                          "title": "甲南IC・甲賀土山IC間付近"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "上り：名古屋方面",
+                          "title": "鈴鹿ﾄﾝﾈﾙ付近→鈴鹿ﾄﾝﾈﾙ入口",
+                          "detail": "路肩規制"
+                      },
+                      {
+                          "title": "鈴鹿ﾄﾝﾈﾙ→亀山西JCT",
+                          "direction": "上り：名古屋方面",
+                          "reason": "工事",
+                          "detail": "路肩規制"
+                      },
+                      {
+                          "detail": "路肩規制",
+                          "title": "四日市JCT付近→四日市JCT",
+                          "direction": "上り：名古屋方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "direction": "下り：神戸方面",
+                          "title": "亀山西JCT付近",
+                          "reason": "工事",
+                          "detail": "路肩規制"
+                      },
+                      {
+                          "direction": "下り：神戸方面",
+                          "reason": "工事",
+                          "title": "金勝山ﾄﾝﾈﾙ付近",
+                          "detail": "追越車線規制"
+                      }
+                  ],
+                  "roadName": "新名神"
+              },
+              {
+                  "info": [
+                      {
+                          "reason": "工事",
+                          "direction": "上り：名古屋方面",
+                          "title": "美濃IC→美濃関JCT",
+                          "detail": "登坂車線規制"
+                      },
+                      {
+                          "detail": "登坂車線規制",
+                          "direction": "下り：富山方面",
+                          "reason": "工事",
+                          "title": "長良川SA→美濃関JCT"
+                      }
+                  ],
+                  "roadName": "東海北陸道"
+              },
+              {
+                  "info": [
+                      {
+                          "direction": "上り：亀山方面",
+                          "title": "伊勢関IC付近",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      }
+                  ],
+                  "roadName": "伊勢道"
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "下り：内回り方面",
+                          "reason": "工事",
+                          "title": "土岐南多治見IC付近→土岐南多治見IC"
+                      }
+                  ],
+                  "roadName": "東海環状道"
+              },
+              {
+                  "roadName": "北陸道",
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "reason": "工事",
+                          "direction": "下り：新潟方面",
+                          "title": "小谷城スマートIC付近"
+                      },
+                      {
+                          "title": "柳ケ瀬ﾄﾝﾈﾙ付近→曽々木ﾄﾝﾈﾙ付近",
+                          "direction": "下り：新潟方面",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "工事",
+                          "direction": "上り：米原方面",
+                          "title": "福井IC付近"
+                      },
+                      {
+                          "direction": "下り：新潟方面",
+                          "title": "今庄IC→南条SA・スマートIC",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "direction": "下り：新潟方面",
+                          "reason": "工事",
+                          "title": "福井IC付近→福井北IC付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "direction": "上り：米原方面",
+                          "title": "南条SA・スマートIC→今庄IC付近",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "上り：米原方面",
+                          "reason": "工事",
+                          "title": "今庄IC付近→杉津ﾄﾝﾈﾙ出口"
+                      },
+                      {
+                          "direction": "上り：米原方面",
+                          "reason": "工事",
+                          "title": "木之本IC付近→小谷城スマートIC付近",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：新潟方面",
+                          "title": "葉原ﾄﾝﾈﾙ付近→敦賀ﾄﾝﾈﾙ",
+                          "detail": "追越車線規制"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "上信越道",
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "title": "稲村山ﾄﾝﾈﾙ→碓氷軽井沢IC",
+                          "direction": "下り：上越方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "reason": "作業",
+                          "direction": "上り：東京方面",
+                          "title": "東部湯の丸IC付近",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "title": "閼伽流山ﾄﾝﾈﾙ入口付近",
+                          "direction": "上り：東京方面",
+                          "reason": "故障車"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "title": "閼伽流山ﾄﾝﾈﾙ入口→閼伽流山ﾄﾝﾈﾙ出口",
+                          "direction": "上り：東京方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "title": "東部湯の丸IC付近",
+                          "direction": "下り：上越方面",
+                          "reason": "作業",
+                          "detail": "追越車線規制"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：諏訪方面",
+                          "reason": "工事",
+                          "title": "塩嶺ﾄﾝﾈﾙ入口→塩嶺ﾄﾝﾈﾙ"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：長野方面",
+                          "title": "岡谷IC→塩嶺ﾄﾝﾈﾙ",
+                          "reason": "作業"
+                      }
+                  ],
+                  "roadName": "長野道"
+              }
+          ]
+      },
+      "areaCenterX": 5525,
+      "trafficCount": {
+          "snowTires": 0,
+          "oneLane": 0,
+          "jam": 0,
+          "antifreeze": 0,
+          "ramp": 6,
+          "snowPlow": 0,
+          "accident": 0,
+          "closed": 5,
+          "snowChain": 0
+      },
+      "areaCenterY": 6440
+  },
+  "area02": {
+      "otherTrafficInfo": {
+          "laneRestriction": [
+              {
+                  "roadName": "東北道",
+                  "info": [
+                      {
+                          "direction": "下り：青森方面",
+                          "reason": "工事",
+                          "title": "本宮IC付近→安達太良SA",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "reason": "工事",
+                          "direction": "下り：青森方面",
+                          "title": "安達太良SA先→二本松IC・福島松川PA・スマートIC間"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：青森方面",
+                          "title": "国見SA付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "作業",
+                          "direction": "下り：青森方面",
+                          "title": "国見SA先付近"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：青森方面",
+                          "reason": "工事",
+                          "title": "黒石IC→牡丹平ﾊﾞｽ停付近"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "磐越道",
+                  "info": [
+                      {
+                          "direction": "上り：いわき方面",
+                          "title": "船引三春IC→船引三春IC付近",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "direction": "上り：仙台方面",
+                          "title": "寒河江IC付近→寒河江IC",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：鶴岡方面",
+                          "title": "笹谷ﾄﾝﾈﾙ入口→関沢IC",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "title": "宝沢ﾄﾝﾈﾙ出口→山形蔵王IC",
+                          "direction": "下り：鶴岡方面",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "title": "山形JCT付近→山形JCT",
+                          "direction": "下り：鶴岡方面",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      }
+                  ],
+                  "roadName": "山形道"
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：能代方面",
+                          "title": "大曲IC付近→南外ﾊﾞｽ停付近",
+                          "reason": "工事"
+                      }
+                  ],
+                  "roadName": "秋田道"
+              },
+              {
+                  "roadName": "仙台東部道路",
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "上り：南行",
+                          "reason": "工事",
+                          "title": "仙台港IC→仙台港IC付近"
+                      },
+                      {
+                          "title": "岩沼IC付近",
+                          "direction": "下り：北行",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "三陸道(仙塩)",
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "工事",
+                          "direction": "上り：南行",
+                          "title": "利府JCT→多賀城IC"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "title": "八戸JCT→福地PA",
+                          "direction": "上り：南行",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "direction": "上り：南行",
+                          "reason": "工事",
+                          "title": "九戸IC→折爪ﾄﾝﾈﾙ出口",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "title": "二戸PA付近→浄法寺IC付近",
+                          "direction": "上り：南行",
+                          "reason": "作業"
+                      },
+                      {
+                          "direction": "下り：北行",
+                          "title": "浄法寺IC→二戸PA付近",
+                          "reason": "作業",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：北行",
+                          "reason": "工事",
+                          "title": "折爪ﾄﾝﾈﾙ入口→折爪ﾄﾝﾈﾙ出口"
+                      }
+                  ],
+                  "roadName": "八戸道"
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "工事",
+                          "direction": "上り：南行",
+                          "title": "八戸JCT付近"
+                      }
+                  ],
+                  "roadName": "八戸道(八戸青森線)"
+              }
+          ]
+      },
+      "trafficInfo": {
+          "closed": [
+              {
+                  "info": [
+                      {
+                          "serialID": "178059",
+                          "direction": "上り：仙台方面",
+                          "reason": "工事",
+                          "title": "寒河江IC→山形JCT",
+                          "coordinate": [
+                              {
+                                  "endY": 4873,
+                                  "endX": 7295,
+                                  "startX": 7264,
+                                  "startY": 4873
+                              }
+                          ],
+                          "lineID": "10130022"
+                      },
+                      {
+                          "coordinate": [
+                              {
+                                  "endX": 7265,
+                                  "endY": 4882,
+                                  "startY": 4882,
+                                  "startX": 7295
+                              }
+                          ],
+                          "lineID": "10130025",
+                          "serialID": "178060",
+                          "direction": "下り：鶴岡方面",
+                          "title": "山形JCT→寒河江IC",
+                          "reason": "工事"
+                      }
+                  ],
+                  "roadName": "山形道"
+              },
+              {
+                  "roadName": "秋田道",
+                  "info": [
+                      {
+                          "coordinate": [
+                              {
+                                  "startX": 7049,
+                                  "startY": 4137,
+                                  "endX": 7049,
+                                  "endY": 4167
+                              },
+                              {
+                                  "endY": 4197,
+                                  "endX": 7049,
+                                  "startX": 7049,
+                                  "startY": 4167
+                              },
+                              {
+                                  "endY": 4198,
+                                  "endX": 7049,
+                                  "startX": 7049,
+                                  "startY": 4195
+                              },
+                              {
+                                  "endX": 7068,
+                                  "endY": 4218,
+                                  "startX": 7049,
+                                  "startY": 4199
+                              },
+                              {
+                                  "endY": 4219,
+                                  "endX": 7069,
+                                  "startY": 4216,
+                                  "startX": 7066
+                              }
+                          ],
+                          "lineID": "10090022",
+                          "serialID": "178073",
+                          "title": "昭和男鹿半島IC→秋田中央IC",
+                          "direction": "上り：北上方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "serialID": "178074",
+                          "direction": "下り：能代方面",
+                          "reason": "工事",
+                          "title": "秋田中央IC→昭和男鹿半島IC",
+                          "lineID": "10090025",
+                          "coordinate": [
+                              {
+                                  "startY": 4226,
+                                  "startX": 7063,
+                                  "endY": 4224,
+                                  "endX": 7061
+                              },
+                              {
+                                  "endX": 7041,
+                                  "endY": 4203,
+                                  "startY": 4225,
+                                  "startX": 7062
+                              },
+                              {
+                                  "endX": 7041,
+                                  "endY": 4197,
+                                  "startY": 4203,
+                                  "startX": 7041
+                              },
+                              {
+                                  "startY": 4197,
+                                  "startX": 7041,
+                                  "endY": 4167,
+                                  "endX": 7041
+                              },
+                              {
+                                  "endY": 4137,
+                                  "endX": 7041,
+                                  "startX": 7041,
+                                  "startY": 4167
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "direction": "上り：東京方面",
+                          "serialID": "178075",
+                          "reason": "工事",
+                          "title": "相馬IC→南相馬IC",
+                          "lineID": "10210042",
+                          "coordinate": [
+                              {
+                                  "endX": 7770,
+                                  "endY": 5104,
+                                  "startX": 7770,
+                                  "startY": 5101
+                              },
+                              {
+                                  "startX": 7770,
+                                  "startY": 5103,
+                                  "endX": 7770,
+                                  "endY": 5128
+                              },
+                              {
+                                  "endX": 7770,
+                                  "endY": 5152,
+                                  "startY": 5128,
+                                  "startX": 7770
+                              }
+                          ]
+                      },
+                      {
+                          "lineID": "10210045",
+                          "coordinate": [
+                              {
+                                  "endX": 7761,
+                                  "endY": 5128,
+                                  "startX": 7761,
+                                  "startY": 5153
+                              },
+                              {
+                                  "startY": 5128,
+                                  "startX": 7761,
+                                  "endY": 5103,
+                                  "endX": 7761
+                              },
+                              {
+                                  "startY": 5104,
+                                  "startX": 7761,
+                                  "endY": 5101,
+                                  "endX": 7761
+                              }
+                          ],
+                          "title": "南相馬IC→相馬IC",
+                          "serialID": "178076",
+                          "direction": "下り：仙台方面",
+                          "reason": "工事"
+                      }
+                  ],
+                  "roadName": "常磐道"
+              }
+          ],
+          "accident": [
+              {
+                  "info": [
+                      {
+                          "coordinate": [
+                              {
+                                  "endY": 4522,
+                                  "endX": 7577,
+                                  "startX": 7577,
+                                  "startY": 4522
+                              }
+                          ],
+                          "reason": "事故",
+                          "direction": "上り：東京方面",
+                          "title": "平泉ﾄﾝﾈﾙ入口付近(平泉前沢IC→平泉スマート間)"
+                      }
+                  ],
+                  "roadName": "東北道"
+              }
+          ]
+      },
+      "areaCenterX": 7438,
+      "areaCenterY": 4486,
+      "trafficCount": {
+          "jam": 0,
+          "ramp": 0,
+          "antifreeze": 0,
+          "oneLane": 0,
+          "snowTires": 0,
+          "snowChain": 0,
+          "closed": 6,
+          "accident": 1,
+          "snowPlow": 0
+      }
+  },
+  "area09": {
+      "trafficCount": {
+          "closed": 4,
+          "snowChain": 0,
+          "snowPlow": 0,
+          "accident": 0,
+          "antifreeze": 0,
+          "ramp": 4,
+          "jam": 0,
+          "snowTires": 0,
+          "oneLane": 0
+      },
+      "areaCenterY": 8141,
+      "areaCenterX": 1522,
+      "otherTrafficInfo": {
+          "underRegulation": [
+              {
+                  "info": [
+                      {
+                          "detail": "規制中",
+                          "direction": "上り：山口方面",
+                          "reason": "工事",
+                          "title": "福岡・佐賀県境付近"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：鹿児島方面",
+                          "title": "福岡・佐賀県境付近",
+                          "detail": "規制中"
+                      }
+                  ],
+                  "roadName": "九州道"
+              },
+              {
+                  "roadName": "長崎道",
+                  "info": [
+                      {
+                          "reason": "工事",
+                          "direction": "上り：福岡方面",
+                          "title": "小城PA付近→小城PA",
+                          "detail": "規制中"
+                      },
+                      {
+                          "detail": "規制中",
+                          "direction": "上り：福岡方面",
+                          "title": "中原ﾊﾞｽ停付近",
+                          "reason": "工事"
+                      },
+                      {
+                          "direction": "下り：長崎方面",
+                          "reason": "工事",
+                          "title": "俵坂ﾄﾝﾈﾙ→俵坂ﾄﾝﾈﾙ出口",
+                          "detail": "規制中"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "規制中",
+                          "title": "萩尾ﾄﾝﾈﾙ付近",
+                          "direction": "下り：東行",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "規制中",
+                          "direction": "下り：東行",
+                          "title": "日田IC付近",
+                          "reason": "工事"
+                      }
+                  ],
+                  "roadName": "大分道"
+              },
+              {
+                  "roadName": "東九州道",
+                  "info": [
+                      {
+                          "detail": "規制中",
+                          "direction": "上り：北九州方面",
+                          "reason": "工事",
+                          "title": "清武IC付近"
+                      },
+                      {
+                          "detail": "規制中",
+                          "direction": "上り：北九州方面",
+                          "reason": "工事",
+                          "title": "高鍋IC付近"
+                      },
+                      {
+                          "detail": "規制中",
+                          "title": "宮崎西IC付近",
+                          "direction": "下り：鹿児島方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "規制中",
+                          "title": "清武IC付近",
+                          "direction": "下り：鹿児島方面",
+                          "reason": "工事"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "西九州道",
+                  "info": [
+                      {
+                          "title": "佐世保三川内IC付近",
+                          "direction": "上り：武雄方面",
+                          "reason": "工事",
+                          "detail": "規制中"
+                      },
+                      {
+                          "detail": "規制中",
+                          "direction": "下り：佐世保方面",
+                          "title": "波佐見有田IC付近",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "規制中",
+                          "direction": "下り：佐世保方面",
+                          "title": "三川内ﾄﾝﾈﾙ付近",
+                          "reason": "工事"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "沖縄道",
+                  "info": [
+                      {
+                          "detail": "規制中",
+                          "reason": "工事",
+                          "direction": "上り：那覇方面",
+                          "title": "幸地ﾊﾞｽ停付近"
+                      },
+                      {
+                          "direction": "下り：名護方面",
+                          "title": "幸地ﾊﾞｽ停付近",
+                          "reason": "工事",
+                          "detail": "規制中"
+                      }
+                  ]
+              }
+          ],
+          "speed": [
+              {
+                  "roadName": "九州道",
+                  "info": [
+                      {
+                          "detail": "８０キロ規制",
+                          "title": "南関IC→門司IC",
+                          "direction": "上り：山口方面",
+                          "reason": "雨"
+                      },
+                      {
+                          "title": "門司IC→南関IC",
+                          "direction": "下り：鹿児島方面",
+                          "reason": "雨",
+                          "detail": "８０キロ規制"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "大分道",
+                  "info": [
+                      {
+                          "detail": "８０キロ規制",
+                          "title": "杷木IC→鳥栖JCT",
+                          "direction": "上り：西行",
+                          "reason": "雨"
+                      },
+                      {
+                          "direction": "下り：東行",
+                          "title": "鳥栖JCT→杷木IC",
+                          "reason": "雨",
+                          "detail": "８０キロ規制"
+                      }
+                  ]
+              }
+          ],
+          "laneRestriction": [
+              {
+                  "info": [
+                      {
+                          "reason": "工事",
+                          "direction": "上り：山口方面",
+                          "title": "加久藤ﾄﾝﾈﾙ入口→加久藤ﾄﾝﾈﾙ出口",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "上り：山口方面",
+                          "reason": "工事",
+                          "title": "瀬高ﾊﾞｽ停付近→瀬高ﾊﾞｽ停"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "上り：山口方面",
+                          "title": "広川IC→広川IC付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "title": "広川IC付近→広川IC",
+                          "direction": "下り：鹿児島方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：鹿児島方面",
+                          "title": "小原ﾊﾞｽ停付近",
+                          "reason": "工事"
+                      }
+                  ],
+                  "roadName": "九州道"
+              },
+              {
+                  "roadName": "大分道",
+                  "info": [
+                      {
+                          "direction": "下り：東行",
+                          "title": "山田SA→高山ﾄﾝﾈﾙ出口",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "宮崎道",
+                  "info": [
+                      {
+                          "title": "小林IC付近→飯野ﾊﾞｽ停付近",
+                          "direction": "上り：熊本方面",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "reason": "作業",
+                          "direction": "下り：宮崎方面",
+                          "title": "飯野ﾊﾞｽ停付近→飯野ﾊﾞｽ停",
+                          "detail": "第１走行規制"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "西九州道",
+                  "info": [
+                      {
+                          "direction": "下り：佐世保方面",
+                          "title": "佐賀・長崎県境→波佐見ﾄﾝﾈﾙ付近",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      }
+                  ]
+              }
+          ]
+      },
+      "trafficInfo": {
+          "ramp": [
+              {
+                  "roadName": "東九州道",
+                  "ic": [
+                      {
+                          "info": [
+                              {
+                                  "title": "佐伯ＩＣ",
+                                  "direction": "下り",
+                                  "reason": "工事"
+                              },
+                              {
+                                  "direction": "上り：日出方面",
+                                  "reason": "工事",
+                                  "title": "佐伯ＩＣ"
+                              }
+                          ],
+                          "coordinate": {
+                              "startX": 2103,
+                              "startY": 8025,
+                              "endX": 2152,
+                              "endY": 8051
+                          },
+                          "en": {
+                              "pointY": 8042,
+                              "pointX": 2089,
+                              "angle": 0
+                          }
+                      },
+                      {
+                          "info": [
+                              {
+                                  "direction": "下り：加治木方面",
+                                  "reason": "工事",
+                                  "title": "末吉財部ＩＣ"
+                              },
+                              {
+                                  "title": "末吉財部ＩＣ",
+                                  "direction": "上り",
+                                  "reason": "工事"
+                              }
+                          ],
+                          "coordinate": {
+                              "endX": 1651,
+                              "endY": 8755,
+                              "startY": 8658,
+                              "startX": 1626
+                          },
+                          "en": {
+                              "angle": 135,
+                              "pointX": 1641,
+                              "pointY": 8650
+                          }
+                      }
+                  ]
+              }
+          ],
+          "closed": [
+              {
+                  "roadName": "東九州道",
+                  "info": [
+                      {
+                          "lineID": "10891172",
+                          "coordinate": [
+                              {
+                                  "endX": 1522,
+                                  "endY": 8607,
+                                  "startX": 1519,
+                                  "startY": 8607
+                              },
+                              {
+                                  "endX": 1556,
+                                  "endY": 8607,
+                                  "startX": 1521,
+                                  "startY": 8607
+                              },
+                              {
+                                  "endX": 1591,
+                                  "endY": 8607,
+                                  "startX": 1556,
+                                  "startY": 8607
+                              },
+                              {
+                                  "startX": 1591,
+                                  "startY": 8607,
+                                  "endY": 8607,
+                                  "endX": 1605
+                              },
+                              {
+                                  "startX": 1605,
+                                  "startY": 8607,
+                                  "endX": 1623,
+                                  "endY": 8625
+                              },
+                              {
+                                  "endX": 1645,
+                                  "endY": 8647,
+                                  "startY": 8625,
+                                  "startX": 1623
+                              }
+                          ],
+                          "serialID": "178170",
+                          "direction": "上り：北九州方面",
+                          "reason": "工事",
+                          "title": "隼人西IC→末吉財部IC"
+                      },
+                      {
+                          "lineID": "10891172",
+                          "coordinate": [
+                              {
+                                  "endY": 8026,
+                                  "endX": 2084,
+                                  "startX": 2084,
+                                  "startY": 8042
+                              },
+                              {
+                                  "startX": 2084,
+                                  "startY": 8026,
+                                  "endX": 2084,
+                                  "endY": 8012
+                              },
+                              {
+                                  "startX": 2084,
+                                  "startY": 8012,
+                                  "endX": 2084,
+                                  "endY": 7982
+                              },
+                              {
+                                  "endX": 2084,
+                                  "endY": 7954,
+                                  "startY": 7982,
+                                  "startX": 2084
+                              },
+                              {
+                                  "endX": 2084,
+                                  "endY": 7952,
+                                  "startY": 7955,
+                                  "startX": 2084
+                              }
+                          ],
+                          "reason": "工事",
+                          "serialID": "178171",
+                          "direction": "上り：北九州方面",
+                          "title": "佐伯IC→大分宮河内IC"
+                      },
+                      {
+                          "reason": "工事",
+                          "serialID": "178172",
+                          "direction": "下り：鹿児島方面",
+                          "title": "大分宮河内IC→佐伯IC",
+                          "lineID": "10891175",
+                          "coordinate": [
+                              {
+                                  "startY": 7952,
+                                  "startX": 2093,
+                                  "endX": 2093,
+                                  "endY": 7955
+                              },
+                              {
+                                  "endY": 7982,
+                                  "endX": 2093,
+                                  "startX": 2093,
+                                  "startY": 7954
+                              },
+                              {
+                                  "endY": 8012,
+                                  "endX": 2093,
+                                  "startY": 7982,
+                                  "startX": 2093
+                              },
+                              {
+                                  "startX": 2093,
+                                  "startY": 8012,
+                                  "endX": 2093,
+                                  "endY": 8026
+                              },
+                              {
+                                  "startY": 8026,
+                                  "startX": 2093,
+                                  "endX": 2093,
+                                  "endY": 8042
+                              }
+                          ]
+                      },
+                      {
+                          "direction": "下り：鹿児島方面",
+                          "serialID": "178173",
+                          "reason": "工事",
+                          "title": "末吉財部IC→隼人西IC",
+                          "lineID": "10891175",
+                          "coordinate": [
+                              {
+                                  "endX": 1615,
+                                  "endY": 8631,
+                                  "startY": 8654,
+                                  "startX": 1638
+                              },
+                              {
+                                  "startX": 1615,
+                                  "startY": 8631,
+                                  "endY": 8616,
+                                  "endX": 1600
+                              },
+                              {
+                                  "startX": 1600,
+                                  "startY": 8616,
+                                  "endY": 8616,
+                                  "endX": 1591
+                              },
+                              {
+                                  "endX": 1556,
+                                  "endY": 8616,
+                                  "startX": 1591,
+                                  "startY": 8616
+                              },
+                              {
+                                  "endY": 8616,
+                                  "endX": 1521,
+                                  "startX": 1556,
+                                  "startY": 8616
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      }
+  },
+  "area04": {
+      "trafficCount": {
+          "jam": 1,
+          "antifreeze": 0,
+          "ramp": 1,
+          "snowTires": 0,
+          "oneLane": 0,
+          "closed": 0,
+          "snowChain": 0,
+          "snowPlow": 0,
+          "accident": 0
+      },
+      "areaCenterY": 6368,
+      "areaCenterX": 7050,
+      "otherTrafficInfo": {
+          "underRegulation": [
+              {
+                  "roadName": "東名",
+                  "info": [
+                      {
+                          "detail": "規制中",
+                          "direction": "下り：大阪方面",
+                          "title": "東京IC→東名川崎IC",
+                          "reason": "作業"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "direction": "下り：上越方面",
+                          "reason": "工事",
+                          "title": "八風山ﾄﾝﾈﾙ付近",
+                          "detail": "規制中"
+                      }
+                  ],
+                  "roadName": "上信越道"
+              }
+          ],
+          "laneRestriction": [
+              {
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "title": "白旗ﾄﾝﾈﾙ入口→高尾ﾄﾝﾈﾙ"
+                      },
+                      {
+                          "detail": "車線規制",
+                          "direction": "下り：大阪方面",
+                          "title": "大和ﾄﾝﾈﾙ付近",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "２車線規制",
+                          "title": "大和ﾄﾝﾈﾙ付近",
+                          "direction": "下り：大阪方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "detail": "登坂車線規制",
+                          "title": "大井松田IC付近",
+                          "direction": "下り：大阪方面",
+                          "reason": "工事"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：大阪方面",
+                          "title": "大井松田IC付近",
+                          "detail": "第１走行規制"
+                      }
+                  ],
+                  "roadName": "東名"
+              },
+              {
+                  "roadName": "東北道",
+                  "info": [
+                      {
+                          "direction": "上り：東京方面",
+                          "title": "宇都宮IC付近",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "title": "加須IC付近→加須IC",
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "title": "岩槻IC付近→浦和IC付近",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：青森方面",
+                          "title": "川口JCT付近",
+                          "detail": "追越車線規制"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "direction": "上り：東京方面",
+                          "title": "坂戸西スマートIC付近→鶴ヶ島IC",
+                          "reason": "工事",
+                          "detail": "２車線規制"
+                      },
+                      {
+                          "title": "新座料金所→大泉JCT",
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "detail": "２車線規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：新潟方面",
+                          "reason": "工事",
+                          "title": "所沢IC→所沢IC付近"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "title": "渋川伊香保IC付近",
+                          "direction": "下り：新潟方面",
+                          "reason": "工事"
+                      }
+                  ],
+                  "roadName": "関越道"
+              },
+              {
+                  "roadName": "中央道",
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "title": "笹子ﾄﾝﾈﾙ付近→笹子ﾊﾞｽ停付近",
+                          "direction": "上り：東京方面",
+                          "reason": "作業"
+                      },
+                      {
+                          "direction": "上り：東京方面",
+                          "title": "相模湖IC→小仏ﾄﾝﾈﾙ出口",
+                          "reason": "工事",
+                          "detail": "２車線規制"
+                      },
+                      {
+                          "direction": "上り：東京方面",
+                          "title": "国立府中IC付近→調布IC付近",
+                          "reason": "作業",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "direction": "下り：名古屋方面",
+                          "reason": "工事",
+                          "title": "相模湖IC付近→藤野PA",
+                          "detail": "第１走行規制"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "title": "河口湖IC付近",
+                          "direction": "下り：富士吉田方面",
+                          "reason": "工事"
+                      }
+                  ],
+                  "roadName": "中央道(富士吉田)"
+              },
+              {
+                  "info": [
+                      {
+                          "reason": "工事",
+                          "direction": "上り：東京方面",
+                          "title": "水戸IC付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "reason": "工事",
+                          "direction": "上り：東京方面",
+                          "title": "三郷ﾄﾝﾈﾙ入口→三郷ﾄﾝﾈﾙ出口"
+                      },
+                      {
+                          "detail": "２車線規制",
+                          "direction": "上り：東京方面",
+                          "title": "美野里PA付近→美野里PA",
+                          "reason": "工事"
+                      },
+                      {
+                          "direction": "下り：仙台方面",
+                          "reason": "工事",
+                          "title": "三郷JCT付近→三郷料金所スマートIC",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "direction": "下り：仙台方面",
+                          "title": "流山IC→柏IC",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "title": "諏訪第２ﾄﾝﾈﾙ出口→日立中央IC",
+                          "direction": "下り：仙台方面",
+                          "reason": "作業"
+                      }
+                  ],
+                  "roadName": "常磐道"
+              },
+              {
+                  "roadName": "東関東道",
+                  "info": [
+                      {
+                          "detail": "２車線規制",
+                          "direction": "上り：東京方面",
+                          "reason": "工事",
+                          "title": "千葉北IC→宮野木JCT"
+                      },
+                      {
+                          "detail": "２車線規制",
+                          "direction": "下り：鹿島方面",
+                          "reason": "工事",
+                          "title": "酒々井PA付近→酒々井PA"
+                      },
+                      {
+                          "direction": "下り：鹿島方面",
+                          "reason": "工事",
+                          "title": "富里IC付近→成田JCT付近",
+                          "detail": "第１走行規制"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：東京方面",
+                          "reason": "作業",
+                          "title": "東部湯の丸IC付近"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "title": "閼伽流山ﾄﾝﾈﾙ入口付近",
+                          "direction": "上り：東京方面",
+                          "reason": "故障車"
+                      },
+                      {
+                          "direction": "上り：東京方面",
+                          "title": "閼伽流山ﾄﾝﾈﾙ入口→閼伽流山ﾄﾝﾈﾙ出口",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "下り：上越方面",
+                          "reason": "工事",
+                          "title": "稲村山ﾄﾝﾈﾙ→碓氷軽井沢IC"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "reason": "作業",
+                          "direction": "下り：上越方面",
+                          "title": "東部湯の丸IC付近"
+                      }
+                  ],
+                  "roadName": "上信越道"
+              },
+              {
+                  "info": [
+                      {
+                          "reason": "工事",
+                          "direction": "下り：東金方面",
+                          "title": "千葉東IC→大宮IC",
+                          "detail": "追越車線規制"
+                      }
+                  ],
+                  "roadName": "千葉東金道路"
+              },
+              {
+                  "roadName": "東京外環道",
+                  "info": [
+                      {
+                          "direction": "上り：内回り方面",
+                          "title": "川口JCT→川口中央IC",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：内回り方面",
+                          "title": "戸田東IC付近→戸田西IC",
+                          "reason": "作業"
+                      },
+                      {
+                          "direction": "上り：内回り方面",
+                          "reason": "工事",
+                          "title": "大泉JCT付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "direction": "下り：外回り方面",
+                          "title": "大泉料金所付近→和光IC",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "direction": "下り：保土ヶ谷方面",
+                          "title": "港北IC付近",
+                          "reason": "工事",
+                          "detail": "追越車線規制"
+                      }
+                  ],
+                  "roadName": "第三京浜道路"
+              },
+              {
+                  "roadName": "横浜新道",
+                  "info": [
+                      {
+                          "direction": "上り：保土ヶ谷方面",
+                          "reason": "工事",
+                          "title": "新保土ヶ谷IC→新保土ヶ谷IC付近",
+                          "detail": "追越車線規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "title": "峰岡IC→新保土ヶ谷IC付近",
+                          "direction": "下り：戸塚方面",
+                          "reason": "工事"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "横浜横須賀道路",
+                  "info": [
+                      {
+                          "title": "釜利谷JCT→港南台IC",
+                          "direction": "上り：北行",
+                          "reason": "工事",
+                          "detail": "第１走行規制"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "圏央道",
+                  "info": [
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：内回り方面",
+                          "reason": "作業",
+                          "title": "鶴ヶ島JCT→圏央鶴ヶ島IC付近"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "direction": "上り：内回り方面",
+                          "reason": "工事",
+                          "title": "狭山日高IC→狭山PA"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "上り：内回り方面",
+                          "title": "川口ﾄﾝﾈﾙ出口→八王子西IC",
+                          "reason": "工事"
+                      },
+                      {
+                          "direction": "上り：内回り方面",
+                          "reason": "工事",
+                          "title": "愛川ﾄﾝﾈﾙ入口→相模原愛川IC",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "下り：外回り方面",
+                          "reason": "作業",
+                          "title": "八王子西IC→天合峰ﾄﾝﾈﾙ"
+                      },
+                      {
+                          "direction": "下り：外回り方面",
+                          "reason": "工事",
+                          "title": "日の出IC→菅生ﾄﾝﾈﾙ出口",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "reason": "工事",
+                          "direction": "下り：外回り方面",
+                          "title": "青梅IC付近→入間IC",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "direction": "下り：外回り方面",
+                          "reason": "工事",
+                          "title": "常総IC・つくば中央IC間付近",
+                          "detail": "車線規制"
+                      }
+                  ]
+              },
+              {
+                  "roadName": "館山道",
+                  "info": [
+                      {
+                          "direction": "下り：南行",
+                          "reason": "工事",
+                          "title": "市原SA→市原SA付近",
+                          "detail": "第１走行規制"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "title": "木更津北IC付近→木更津北IC",
+                          "direction": "下り：南行",
+                          "reason": "工事"
+                      }
+                  ]
+              },
+              {
+                  "info": [
+                      {
+                          "detail": "第１走行規制",
+                          "direction": "上り：川崎方面",
+                          "reason": "作業",
+                          "title": "海ほたるPA→アクアトンネル"
+                      },
+                      {
+                          "detail": "追越車線規制",
+                          "title": "アクアトンネル→海ほたるPA付近",
+                          "direction": "下り：木更津方面",
+                          "reason": "作業"
+                      }
+                  ],
+                  "roadName": "東京湾ｱｸｱﾗｲﾝ"
+              }
+          ],
+          "speed": [
+              {
+                  "info": [
+                      {
+                          "title": "笹子ﾄﾝﾈﾙ→笹子ﾄﾝﾈﾙ東口",
+                          "direction": "上り：東京方面",
+                          "reason": "作業",
+                          "detail": "５０キロ規制"
+                      }
+                  ],
+                  "roadName": "中央道"
+              }
+          ]
+      },
+      "trafficInfo": {
+          "jam": [
+              {
+                  "roadName": "圏央道",
+                  "info": [
+                      {
+                          "reason": "",
+                          "direction": "上り：内回り方面",
+                          "title": "圏央鶴ヶ島IC付近",
+                          "coordinate": [
+                              {
+                                  "endY": 6238,
+                                  "endX": 6939,
+                                  "startX": 6961,
+                                  "startY": 6216
+                              }
+                          ],
+                          "distance": "2"
+                      }
+                  ]
+              }
+          ],
+          "ramp": [
+              {
+                  "roadName": "東北道",
+                  "ic": [
+                      {
+                          "info": [
+                              {
+                                  "direction": "上り",
+                                  "title": "宇都宮ＩＣ出口",
+                                  "reason": "工事"
+                              }
+                          ],
+                          "coordinate": {
+                              "endY": 5702,
+                              "endX": 7288,
+                              "startY": 5677,
+                              "startX": 7217
+                          },
+                          "en": {
+                              "pointX": 7301,
+                              "pointY": 5692,
+                              "angle": 180
+                          }
+                      }
+                  ]
+              }
+          ]
+      }
+  }
+}
